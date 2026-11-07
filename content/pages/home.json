@@ -1,0 +1,66 @@
+{
+ "hero": {
+  "eyebrow": "THE ART OF CULINARY EXCELLENCE",
+  "title": "ANAND KUMAR",
+  "descriptor": "EXECUTIVE CHEF",
+  "subheading": "A culinary journey shaped by passion, leadership and global excellence.",
+  "primaryCta": {
+   "label": "EXPLORE MY JOURNEY",
+   "href": "/about"
+  },
+  "secondaryCta": {
+   "label": "DISCOVER MY WORK",
+   "href": "/portfolio"
+  },
+  "portrait": "/images/original/chef/about2.jpg"
+ },
+ "philosophy": {
+  "heading": "BEYOND THE PLATE",
+  "subheading": "A Culinary Journey of Passion, Leadership, and Global Excellence",
+  "body": "Every chef has a story, but some journeys are defined not only by the dishes they create but by the lives they inspire, the teams they build, and the cultures they embrace. My journey in the culinary world is one such story — a journey that began with a dream and evolved into a lifelong pursuit of excellence.",
+  "quote": "Food is more than nourishment. It is culture, emotion, memory, and connection.",
+  "image": "/images/original/fullwidth/model1.jpg",
+  "cta": {
+   "label": "READ MY STORY",
+   "href": "/about"
+  }
+ },
+ "signatureWork": {
+  "heading": "THE ART ON THE PLATE",
+  "subheading": "SELECTED CULINARY WORKS",
+  "featuredCategories": [
+   "Signature dishes",
+   "Brunch",
+   "Dessert",
+   "Oktoberfest"
+  ],
+  "cta": {
+   "label": "EXPLORE PORTFOLIO",
+   "href": "/portfolio"
+  }
+ },
+ "career": {
+  "heading": "A JOURNEY ACROSS CONTINENTS",
+  "subheading": "From foundational mastery in Kolkata and Mumbai to executive leadership across the Maldives, Zanzibar, Dubai, Tanzania, and Lagos."
+ },
+ "expertise": {
+  "heading": "EXPERTISE THAT GOES BEYOND THE KITCHEN",
+  "subheading": "Comprehensive restaurant consultancy, menu engineering, team mastery, and kitchen architecture."
+ },
+ "featuredMedia": {
+  "heading": "THE STORY IN MOTION",
+  "subheading": "Cinematic visual highlights from kitchens, masterclasses, and international culinary showcases.",
+  "cta": {
+   "label": "EXPLORE VIDEO ARCHIVE",
+   "href": "/video-archive"
+  }
+ },
+ "contactCta": {
+  "heading": "LET'S CREATE SOMETHING EXTRAORDINARY",
+  "subheading": "Culinary excellence begins with a conversation.",
+  "cta": {
+   "label": "START A CONVERSATION",
+   "href": "/contact"
+  }
+ }
+}

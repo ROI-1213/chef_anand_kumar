@@ -1,0 +1,90 @@
+[
+ {
+  "period": "Foundational Education",
+  "role": "Culinary & Hospitality Education",
+  "organization": "Institute of Hotel Management, Catering Technology & Applied Nutrition",
+  "location": "Kolkata, India",
+  "description": "Comprehensive formal culinary arts and hospitality administration training, establishing rigorous foundational French and international classical culinary techniques.",
+  "type": "education"
+ },
+ {
+  "period": "2002 - Early Professional Training",
+  "role": "Kitchen Operations & Culinary Craft",
+  "organization": "JW Marriott Mumbai",
+  "location": "Mumbai, India",
+  "description": "Intensive culinary operations at one of India's premier luxury flagship hotels, mastering high-volume banquet excellence and fine dining precision.",
+  "type": "luxury_hotel"
+ },
+ {
+  "period": "Progression through Senior Kitchen Roles",
+  "role": "Sous Chef & Senior Kitchen Operations",
+  "organization": "Hyatt Regency Mumbai",
+  "location": "Mumbai, India",
+  "description": "Advanced through culinary leadership tiers, supervising kitchen brigades, specialty restaurant conceptualization, and international culinary standards.",
+  "type": "luxury_hotel"
+ },
+ {
+  "period": "2014 - First Executive Chef Role",
+  "role": "Executive Chef",
+  "organization": "Hyatt Hyderabad",
+  "location": "Hyderabad, India",
+  "description": "Assumed full culinary directorship as Executive Chef in 2014, steering kitchen brigade leadership, signature menus, VIP banquets, and operational profitability.",
+  "type": "executive_leadership"
+ },
+ {
+  "period": "Executive Leadership",
+  "role": "Executive Chef",
+  "organization": "Hilton Bengaluru Embassy GolfLinks",
+  "location": "Bengaluru, India",
+  "description": "Led culinary direction and high-end restaurant concepts in Bengaluru's prominent luxury business and lifestyle precinct.",
+  "type": "luxury_hotel"
+ },
+ {
+  "period": "International Island Resort Luxury",
+  "role": "Executive Chef",
+  "organization": "VARU by Atmosphere",
+  "location": "Maldives",
+  "description": "Orchestrated premium multi-outlet culinary programs at the luxury private island resort, catering to discerning global travelers and sustainable oceanfront gastronomy.",
+  "type": "luxury_resort"
+ },
+ {
+  "period": "Five-Star Luxury Resort Directorship",
+  "role": "Executive Chef",
+  "organization": "Emerald Zanzibar Resort & Spa",
+  "location": "Zanzibar, Tanzania",
+  "description": "Directed high-end multi-concept resort dining, fusing East African coastal flavors with global fine dining standards across multiple signature restaurants.",
+  "type": "luxury_resort"
+ },
+ {
+  "period": "Luxury Destination Resort Operations",
+  "role": "Executive Chef",
+  "organization": "JW Marriott Goa",
+  "location": "Goa, India",
+  "description": "Curated coastal culinary luxury, farm-to-table partnerships, and signature dining venues in India's leading luxury leisure destination.",
+  "type": "luxury_hotel"
+ },
+ {
+  "period": "Bespoke Wilderness Luxury",
+  "role": "Executive Chef",
+  "organization": "Meliá Ngorongoro Lodge",
+  "location": "Ngorongoro Conservation Area, Tanzania",
+  "description": "Engineered extraordinary wilderness dining experiences overlooking the UNESCO World Heritage crater, integrating local tribal harvests with world-class fine dining.",
+  "type": "luxury_resort"
+ },
+ {
+  "period": "Polo Club & Boutique Luxury",
+  "role": "Executive Chef",
+  "organization": "Meliá Desert Palm",
+  "location": "Dubai, United Arab Emirates",
+  "description": "Spearheaded premier equestrian estate dining, Argentine asado steakhouse traditions, and contemporary international gastronomy in Dubai.",
+  "type": "luxury_resort"
+ },
+ {
+  "period": "International Executive Directorship",
+  "role": "Executive Chef",
+  "organization": "The George Hotel",
+  "location": "Lagos, Nigeria",
+  "description": "Executive culinary leader steering Lagos' renowned luxury boutique hotel, driving culinary prestige, diplomatic dining, and benchmark hospitality excellence.",
+  "type": "executive_leadership"
+ }
+]

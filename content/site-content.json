@@ -1,0 +1,1424 @@
+{
+ "meta": {
+  "siteName": "Chef Anand Kumar",
+  "title": "Executive Chef Anand Kumar | Culinary Leader & Hospitality Consultant",
+  "description": "Official website of Executive Chef Anand Kumar — International Culinary Leader, Luxury Hospitality Consultant, and Founder of ForkTheory.",
+  "url": "https://www.chefanandkumar.com",
+  "locale": "en_US"
+ },
+ "navigation": [
+  {
+   "label": "HOME",
+   "href": "/"
+  },
+  {
+   "label": "ABOUT",
+   "href": "/about"
+  },
+  {
+   "label": "PORTFOLIO",
+   "href": "/portfolio"
+  },
+  {
+   "label": "RECIPES",
+   "href": "/recipes"
+  },
+  {
+   "label": "VIDEO ARCHIVE",
+   "href": "/video-archive"
+  },
+  {
+   "label": "BLOG",
+   "href": "https://blog.chefanandkumar.com/",
+   "external": true
+  },
+  {
+   "label": "CONTACT",
+   "href": "/contact"
+  }
+ ],
+ "contact": {
+  "name": "Chef Anand Kumar",
+  "title": "Executive Chef & Hospitality Consultant",
+  "phone": "+91 9703712340",
+  "phoneNote": "Business days only",
+  "email": "anand_hotel@yahoo.com",
+  "emailNote": "Up to 72 hours respond",
+  "address": {
+   "building": "Prime Legend, Flat-814, Block-B",
+   "street": "Kondapur, Masjid Banda, Next to MG Car Showroom",
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "postalCode": "500084",
+   "country": "India"
+  }
+ },
+ "pages": {
+  "home": {
+   "hero": {
+    "eyebrow": "THE ART OF CULINARY EXCELLENCE",
+    "title": "ANAND KUMAR",
+    "descriptor": "EXECUTIVE CHEF",
+    "subheading": "A culinary journey shaped by passion, leadership and global excellence.",
+    "primaryCta": {
+     "label": "EXPLORE MY JOURNEY",
+     "href": "/about"
+    },
+    "secondaryCta": {
+     "label": "DISCOVER MY WORK",
+     "href": "/portfolio"
+    },
+    "portrait": "/images/original/chef/about2.jpg"
+   },
+   "philosophy": {
+    "heading": "BEYOND THE PLATE",
+    "subheading": "A Culinary Journey of Passion, Leadership, and Global Excellence",
+    "body": "Every chef has a story, but some journeys are defined not only by the dishes they create but by the lives they inspire, the teams they build, and the cultures they embrace. My journey in the culinary world is one such story — a journey that began with a dream and evolved into a lifelong pursuit of excellence.",
+    "quote": "Food is more than nourishment. It is culture, emotion, memory, and connection.",
+    "image": "/images/original/fullwidth/model1.jpg",
+    "cta": {
+     "label": "READ MY STORY",
+     "href": "/about"
+    }
+   },
+   "signatureWork": {
+    "heading": "THE ART ON THE PLATE",
+    "subheading": "SELECTED CULINARY WORKS",
+    "featuredCategories": [
+     "Signature dishes",
+     "Brunch",
+     "Dessert",
+     "Oktoberfest"
+    ],
+    "cta": {
+     "label": "EXPLORE PORTFOLIO",
+     "href": "/portfolio"
+    }
+   },
+   "career": {
+    "heading": "A JOURNEY ACROSS CONTINENTS",
+    "subheading": "From foundational mastery in Kolkata and Mumbai to executive leadership across the Maldives, Zanzibar, Dubai, Tanzania, and Lagos."
+   },
+   "expertise": {
+    "heading": "EXPERTISE THAT GOES BEYOND THE KITCHEN",
+    "subheading": "Comprehensive restaurant consultancy, menu engineering, team mastery, and kitchen architecture."
+   },
+   "featuredMedia": {
+    "heading": "THE STORY IN MOTION",
+    "subheading": "Cinematic visual highlights from kitchens, masterclasses, and international culinary showcases.",
+    "cta": {
+     "label": "EXPLORE VIDEO ARCHIVE",
+     "href": "/video-archive"
+    }
+   },
+   "contactCta": {
+    "heading": "LET'S CREATE SOMETHING EXTRAORDINARY",
+    "subheading": "Culinary excellence begins with a conversation.",
+    "cta": {
+     "label": "START A CONVERSATION",
+     "href": "/contact"
+    }
+   }
+  },
+  "about": {
+   "hero": {
+    "heading": "THE MAN BEHIND THE CRAFT",
+    "subheading": "Passion. Leadership. Global Excellence.",
+    "portrait": "/images/original/chef/about2.jpg"
+   },
+   "biography": {
+    "heading": "A LIFE DEDICATED TO CULINARY EXCELLENCE",
+    "paragraphs": [
+     "Every chef has a story, but some journeys are defined not only by the dishes they create but by the lives they inspire, the teams they build, and the cultures they embrace. My journey in the culinary world is one such story — a journey that began with a dream and evolved into a lifelong pursuit of excellence.",
+     "Born with a passion for food and hospitality, I laid the foundation of my career at the prestigious Institute of Hotel Management, Catering Technology & Applied Nutrition in Kolkata. While many saw cooking as a profession, I saw it as an art form capable of bringing people together, creating memories, and telling stories through flavors.",
+     "My professional journey began in 2002 as a Kitchen Management Trainee at JW Marriott Mumbai. Those early years taught me the fundamentals of discipline, consistency, and the relentless pursuit of perfection. Long hours in the kitchen, learning from experienced chefs, and understanding the intricacies of luxury hospitality shaped my character and strengthened my commitment to the craft.",
+     "Driven by an unwavering desire to grow, I joined Hyatt Regency Mumbai, where I spent nearly a decade progressing through the ranks — from Chef de Partie to Sous Chef, Chef de Cuisine, and ultimately Executive Sous Chef. These years were transformative. Beyond mastering culinary techniques, I learned the art of leadership, team development, cost management, and operational excellence. It was here that I discovered that great kitchens are built not only on recipes but on people.",
+     "In 2014, I stepped into my first Executive Chef role at Hyatt Hyderabad. This was a defining milestone in my career. Leading large culinary teams and overseeing multi-outlet operations challenged me to think beyond the kitchen. I became responsible for shaping dining experiences, driving business performance, and mentoring future culinary leaders.",
+     "The following years took me across continents and cultures. From Hilton Bengaluru to the pristine islands of the Maldives at VARU by Atmosphere, I embraced opportunities to create innovative dining concepts while celebrating local ingredients and traditions. Every destination offered new lessons, new flavors, and new perspectives on hospitality.",
+     "My passion for pre-opening projects led me to some of the most exciting assignments of my career. I played key leadership roles in launching Emerald Zanzibar Resort & Spa in Tanzania, JW Marriott Goa in India, and later supported Melia Ngorongoro Lodge in Tanzania. Building a culinary operation from the ground up requires vision, resilience, and attention to detail. These projects allowed me to create culinary identities that reflected the spirit of each destination while delivering world-class guest experiences.",
+     "In 2023, I joined Melia Desert Palm Dubai as Executive Chef, where I led luxury culinary operations in one of the world's most competitive hospitality markets. Here, I focused on innovation, sustainability, team development, and creating memorable dining experiences that aligned with the highest international standards.",
+     "Today, as Executive Chef of The George Hotel in Lagos, Nigeria, I continue to push boundaries and redefine excellence. My role extends far beyond menu creation. I am a mentor, strategist, innovator, and leader committed to building strong culinary teams, driving business growth, and delivering unforgettable guest experiences.",
+     "Throughout my journey, I have remained a lifelong student of food. Whether exploring ancient cuisines, traveling to understand different cultures, hosting unique dining experiences, or sharing knowledge through cooking shows, podcasts, and industry forums, I believe learning never stops.",
+     "Looking back, my career has never been solely about reaching the next position. It has been about creating impact — on guests, colleagues, businesses, and the culinary industry itself. From a young trainee in Mumbai to leading luxury hotel kitchens across four continents, every step has reinforced one belief:",
+     "Food is more than nourishment. It is culture, emotion, memory, and connection.",
+     "And my journey is far from over.",
+     "My work style is built on a simple philosophy: great food comes from great people, strong systems, and an unwavering commitment to excellence.",
+     "With more than two decades in luxury hospitality across India, the Maldives, Tanzania, the UAE, and Nigeria, I have developed a leadership approach that balances creativity with operational discipline. I believe that a successful kitchen is not driven by one chef alone but by a motivated and empowered team working towards a common vision.",
+     "I am a hands-on leader who leads by example. Whether it is a busy service, a pre-opening project, or a large-scale banquet operation, I remain actively involved in guiding my team, maintaining standards, and ensuring that every guest receives an exceptional dining experience.",
+     "People development is at the heart of my management style. I invest significant time in mentoring young chefs, identifying future leaders, and creating a culture of continuous learning. I believe that when individuals grow, the entire organization benefits. Many of the chefs I have trained throughout my career have progressed into leadership positions, which remains one of my proudest achievements.",
+     "I am highly organized and process-driven, with a strong focus on food safety, cost control, sustainability, and operational efficiency. My experience in pre-opening hotels and resorts has taught me the importance of building strong systems, clear communication channels, and accountability at every level.",
+     "Creativity is equally important to me. I enjoy exploring local cultures, understanding regional ingredients, and translating those influences into innovative culinary experiences. My approach to menu development combines guest preferences, market trends, business objectives, and authentic storytelling through food.",
+     "I believe in fostering a positive workplace culture where respect, collaboration, and professionalism are non-negotiable. During challenging situations, I remain calm, solution-oriented, and focused on achieving results while supporting my team.",
+     "Above all, I never stop learning. Whether traveling to discover new cuisines, participating in culinary forums, hosting cooking demonstrations, or exploring emerging food trends, I continuously seek opportunities to grow both personally and professionally.",
+     "My goal is not simply to manage kitchens but to create memorable experiences, build high-performing teams, and leave a lasting impact wherever I work."
+    ],
+    "coreStatement": "Food is more than nourishment. It is culture, emotion, memory, and connection."
+   },
+   "workStyle": {
+    "heading": "THE PHILOSOPHY OF LEADERSHIP",
+    "mantra": "CARE FOR THE TEAM SO THEY CAN BE THEIR BEST.",
+    "pillars": [
+     "Portfolio",
+     "Recipes",
+     "Video Archive",
+     "Contact",
+     "Portfolio",
+     "Recipes",
+     "Video Archive",
+     "Contact"
+    ]
+   },
+   "careerTimeline": [
+    {
+     "period": "Foundational Education",
+     "role": "Culinary & Hospitality Education",
+     "organization": "Institute of Hotel Management, Catering Technology & Applied Nutrition",
+     "location": "Kolkata, India",
+     "description": "Comprehensive formal culinary arts and hospitality administration training, establishing rigorous foundational French and international classical culinary techniques.",
+     "type": "education"
+    },
+    {
+     "period": "2002 - Early Professional Training",
+     "role": "Kitchen Operations & Culinary Craft",
+     "organization": "JW Marriott Mumbai",
+     "location": "Mumbai, India",
+     "description": "Intensive culinary operations at one of India's premier luxury flagship hotels, mastering high-volume banquet excellence and fine dining precision.",
+     "type": "luxury_hotel"
+    },
+    {
+     "period": "Progression through Senior Kitchen Roles",
+     "role": "Sous Chef & Senior Kitchen Operations",
+     "organization": "Hyatt Regency Mumbai",
+     "location": "Mumbai, India",
+     "description": "Advanced through culinary leadership tiers, supervising kitchen brigades, specialty restaurant conceptualization, and international culinary standards.",
+     "type": "luxury_hotel"
+    },
+    {
+     "period": "2014 - First Executive Chef Role",
+     "role": "Executive Chef",
+     "organization": "Hyatt Hyderabad",
+     "location": "Hyderabad, India",
+     "description": "Assumed full culinary directorship as Executive Chef in 2014, steering kitchen brigade leadership, signature menus, VIP banquets, and operational profitability.",
+     "type": "executive_leadership"
+    },
+    {
+     "period": "Executive Leadership",
+     "role": "Executive Chef",
+     "organization": "Hilton Bengaluru Embassy GolfLinks",
+     "location": "Bengaluru, India",
+     "description": "Led culinary direction and high-end restaurant concepts in Bengaluru's prominent luxury business and lifestyle precinct.",
+     "type": "luxury_hotel"
+    },
+    {
+     "period": "International Island Resort Luxury",
+     "role": "Executive Chef",
+     "organization": "VARU by Atmosphere",
+     "location": "Maldives",
+     "description": "Orchestrated premium multi-outlet culinary programs at the luxury private island resort, catering to discerning global travelers and sustainable oceanfront gastronomy.",
+     "type": "luxury_resort"
+    },
+    {
+     "period": "Five-Star Luxury Resort Directorship",
+     "role": "Executive Chef",
+     "organization": "Emerald Zanzibar Resort & Spa",
+     "location": "Zanzibar, Tanzania",
+     "description": "Directed high-end multi-concept resort dining, fusing East African coastal flavors with global fine dining standards across multiple signature restaurants.",
+     "type": "luxury_resort"
+    },
+    {
+     "period": "Luxury Destination Resort Operations",
+     "role": "Executive Chef",
+     "organization": "JW Marriott Goa",
+     "location": "Goa, India",
+     "description": "Curated coastal culinary luxury, farm-to-table partnerships, and signature dining venues in India's leading luxury leisure destination.",
+     "type": "luxury_hotel"
+    },
+    {
+     "period": "Bespoke Wilderness Luxury",
+     "role": "Executive Chef",
+     "organization": "Meliá Ngorongoro Lodge",
+     "location": "Ngorongoro Conservation Area, Tanzania",
+     "description": "Engineered extraordinary wilderness dining experiences overlooking the UNESCO World Heritage crater, integrating local tribal harvests with world-class fine dining.",
+     "type": "luxury_resort"
+    },
+    {
+     "period": "Polo Club & Boutique Luxury",
+     "role": "Executive Chef",
+     "organization": "Meliá Desert Palm",
+     "location": "Dubai, United Arab Emirates",
+     "description": "Spearheaded premier equestrian estate dining, Argentine asado steakhouse traditions, and contemporary international gastronomy in Dubai.",
+     "type": "luxury_resort"
+    },
+    {
+     "period": "International Executive Directorship",
+     "role": "Executive Chef",
+     "organization": "The George Hotel",
+     "location": "Lagos, Nigeria",
+     "description": "Executive culinary leader steering Lagos' renowned luxury boutique hotel, driving culinary prestige, diplomatic dining, and benchmark hospitality excellence.",
+     "type": "executive_leadership"
+    }
+   ]
+  },
+  "portfolio": {
+   "heading": "SELECTED CULINARY PORTFOLIO",
+   "subheading": "An exhibition of haute cuisine, bespoke plating, international travels, and culinary artistry.",
+   "categories": [
+    "All",
+    "Media",
+    "Food",
+    "Signature dishes",
+    "Travel",
+    "Photography"
+   ],
+   "items": [
+    {
+     "id": "item-1",
+     "src": "/images/original/portfolio/signature10.jpg",
+     "originalSrc": "img/portfolio/signature10.jpg",
+     "title": "Signature dishes Study #1",
+     "category": "Signature dishes",
+     "classes": "grid-portfolio"
+    },
+    {
+     "id": "item-2",
+     "src": "/images/original/portfolio/signature17.jpg",
+     "originalSrc": "img/portfolio/signature17.jpg",
+     "title": "Signature dishes Study #2",
+     "category": "Signature dishes",
+     "classes": "col-md-3 grid-portfolio-item signature"
+    },
+    {
+     "id": "item-3",
+     "src": "/images/original/portfolio/photography15.jpg",
+     "originalSrc": "img/portfolio/photography15.jpg",
+     "title": "Photography Study #3",
+     "category": "Photography",
+     "classes": "col-md-3 grid-portfolio-item photography"
+    },
+    {
+     "id": "item-4",
+     "src": "/images/original/portfolio/signature19.jpg",
+     "originalSrc": "img/portfolio/signature19.jpg",
+     "title": "Signature dishes Study #4",
+     "category": "Signature dishes",
+     "classes": "col-md-3 grid-portfolio-item signature"
+    },
+    {
+     "id": "item-5",
+     "src": "/images/original/portfolio/photography4.jpg",
+     "originalSrc": "img/portfolio/photography4.jpg",
+     "title": "Photography Study #5",
+     "category": "Photography",
+     "classes": "col-md-3 grid-portfolio-item photography"
+    },
+    {
+     "id": "item-6",
+     "src": "/images/original/portfolio/photography16.jpg",
+     "originalSrc": "img/portfolio/photography16.jpg",
+     "title": "Photography Study #6",
+     "category": "Photography",
+     "classes": "col-md-3 grid-portfolio-item photography"
+    },
+    {
+     "id": "item-7",
+     "src": "/images/original/portfolio/signature18.jpg",
+     "originalSrc": "img/portfolio/signature18.jpg",
+     "title": "Signature dishes Study #7",
+     "category": "Signature dishes",
+     "classes": "col-md-3 grid-portfolio-item signature"
+    },
+    {
+     "id": "item-8",
+     "src": "/images/original/portfolio/photography5.jpg",
+     "originalSrc": "img/portfolio/photography5.jpg",
+     "title": "Photography Study #8",
+     "category": "Photography",
+     "classes": "col-md-3 grid-portfolio-item photography"
+    },
+    {
+     "id": "item-9",
+     "src": "/images/original/portfolio/photography17.jpg",
+     "originalSrc": "img/portfolio/photography17.jpg",
+     "title": "Photography Study #9",
+     "category": "Photography",
+     "classes": "col-md-3 grid-portfolio-item photography"
+    },
+    {
+     "id": "item-10",
+     "src": "/images/original/portfolio/photography6.jpg",
+     "originalSrc": "img/portfolio/photography6.jpg",
+     "title": "Photography Study #10",
+     "category": "Photography",
+     "classes": "col-md-3 grid-portfolio-item photography"
+    },
+    {
+     "id": "item-11",
+     "src": "/images/original/portfolio/signature9.jpg",
+     "originalSrc": "img/portfolio/signature9.jpg",
+     "title": "Signature dishes Study #11",
+     "category": "Signature dishes",
+     "classes": "col-md-3 grid-portfolio-item signature"
+    },
+    {
+     "id": "item-12",
+     "src": "/images/original/portfolio/signature11.jpg",
+     "originalSrc": "img/portfolio/signature11.jpg",
+     "title": "Signature dishes Study #12",
+     "category": "Signature dishes",
+     "classes": "col-md-3 grid-portfolio-item signature"
+    },
+    {
+     "id": "item-13",
+     "src": "/images/original/portfolio/photography2.jpg",
+     "originalSrc": "img/portfolio/photography2.jpg",
+     "title": "Photography Study #13",
+     "category": "Photography",
+     "classes": "col-md-3 grid-portfolio-item photography"
+    },
+    {
+     "id": "item-14",
+     "src": "/images/original/portfolio/photography3.jpg",
+     "originalSrc": "img/portfolio/photography3.jpg",
+     "title": "Photography Study #14",
+     "category": "Photography",
+     "classes": "col-md-3 grid-portfolio-item photography"
+    },
+    {
+     "id": "item-15",
+     "src": "/images/original/portfolio/travel1.jpg",
+     "originalSrc": "img/portfolio/travel1.jpg",
+     "title": "Travel Study #15",
+     "category": "Travel",
+     "classes": "col-md-3 grid-portfolio-item travel"
+    },
+    {
+     "id": "item-16",
+     "src": "/images/original/portfolio/photography19.jpg",
+     "originalSrc": "img/portfolio/photography19.jpg",
+     "title": "Photography Study #16",
+     "category": "Photography",
+     "classes": "col-md-3 grid-portfolio-item photography"
+    },
+    {
+     "id": "item-17",
+     "src": "/images/original/portfolio/photography18.jpg",
+     "originalSrc": "img/portfolio/photography18.jpg",
+     "title": "Photography Study #17",
+     "category": "Photography",
+     "classes": "col-md-3 grid-portfolio-item photography"
+    },
+    {
+     "id": "item-18",
+     "src": "/images/original/portfolio/travel2.jpg",
+     "originalSrc": "img/portfolio/travel2.jpg",
+     "title": "Travel Study #18",
+     "category": "Travel",
+     "classes": "col-md-3 grid-portfolio-item travel"
+    },
+    {
+     "id": "item-19",
+     "src": "/images/original/portfolio/travel3.jpg",
+     "originalSrc": "img/portfolio/travel3.jpg",
+     "title": "Travel Study #19",
+     "category": "Travel",
+     "classes": "col-md-3 grid-portfolio-item travel"
+    },
+    {
+     "id": "item-20",
+     "src": "/images/original/portfolio/travel4.jpg",
+     "originalSrc": "img/portfolio/travel4.jpg",
+     "title": "Travel Study #20",
+     "category": "Travel",
+     "classes": "col-md-3 grid-portfolio-item travel"
+    },
+    {
+     "id": "item-21",
+     "src": "/images/original/portfolio/travel5.jpg",
+     "originalSrc": "img/portfolio/travel5.jpg",
+     "title": "Travel Study #21",
+     "category": "Travel",
+     "classes": "col-md-3 grid-portfolio-item travel"
+    },
+    {
+     "id": "item-22",
+     "src": "/images/original/portfolio/photography7.jpg",
+     "originalSrc": "img/portfolio/photography7.jpg",
+     "title": "Photography Study #22",
+     "category": "Photography",
+     "classes": "col-md-3 grid-portfolio-item photography"
+    },
+    {
+     "id": "item-23",
+     "src": "/images/original/portfolio/photography8.jpg",
+     "originalSrc": "img/portfolio/photography8.jpg",
+     "title": "Photography Study #23",
+     "category": "Photography",
+     "classes": "col-md-3 grid-portfolio-item photography"
+    },
+    {
+     "id": "item-24",
+     "src": "/images/original/portfolio/travel6.jpg",
+     "originalSrc": "img/portfolio/travel6.jpg",
+     "title": "Travel Study #24",
+     "category": "Travel",
+     "classes": "col-md-3 grid-portfolio-item travel"
+    },
+    {
+     "id": "item-25",
+     "src": "/images/original/portfolio/travel7.jpg",
+     "originalSrc": "img/portfolio/travel7.jpg",
+     "title": "Travel Study #25",
+     "category": "Travel",
+     "classes": "col-md-3 grid-portfolio-item travel"
+    },
+    {
+     "id": "item-26",
+     "src": "/images/original/portfolio/signature12.jpg",
+     "originalSrc": "img/portfolio/signature12.jpg",
+     "title": "Signature dishes Study #26",
+     "category": "Signature dishes",
+     "classes": "col-md-3 grid-portfolio-item signature"
+    },
+    {
+     "id": "item-27",
+     "src": "/images/original/portfolio/signature13.jpg",
+     "originalSrc": "img/portfolio/signature13.jpg",
+     "title": "Signature dishes Study #27",
+     "category": "Signature dishes",
+     "classes": "col-md-3 grid-portfolio-item signature"
+    },
+    {
+     "id": "item-28",
+     "src": "/images/original/portfolio/photography9.jpg",
+     "originalSrc": "img/portfolio/photography9.jpg",
+     "title": "Photography Study #28",
+     "category": "Photography",
+     "classes": "col-md-3 grid-portfolio-item photography"
+    },
+    {
+     "id": "item-29",
+     "src": "/images/original/portfolio/media2.jpg",
+     "originalSrc": "img/portfolio/media2.jpg",
+     "title": "Media Study #29",
+     "category": "Media",
+     "classes": "col-md-3 grid-portfolio-item media"
+    },
+    {
+     "id": "item-30",
+     "src": "/images/original/portfolio/media3.jpg",
+     "originalSrc": "img/portfolio/media3.jpg",
+     "title": "Media Study #30",
+     "category": "Media",
+     "classes": "col-md-3 grid-portfolio-item media"
+    },
+    {
+     "id": "item-31",
+     "src": "/images/original/portfolio/media4.jpg",
+     "originalSrc": "img/portfolio/media4.jpg",
+     "title": "Media Study #31",
+     "category": "Media",
+     "classes": "col-md-3 grid-portfolio-item media"
+    },
+    {
+     "id": "item-32",
+     "src": "/images/original/portfolio/photography10.jpg",
+     "originalSrc": "img/portfolio/photography10.jpg",
+     "title": "Photography Study #32",
+     "category": "Photography",
+     "classes": "col-md-3 grid-portfolio-item photography"
+    },
+    {
+     "id": "item-33",
+     "src": "/images/original/portfolio/media5.jpg",
+     "originalSrc": "img/portfolio/media5.jpg",
+     "title": "Media Study #33",
+     "category": "Media",
+     "classes": "col-md-3 grid-portfolio-item media"
+    },
+    {
+     "id": "item-34",
+     "src": "/images/original/portfolio/photography11.jpg",
+     "originalSrc": "img/portfolio/photography11.jpg",
+     "title": "Photography Study #34",
+     "category": "Photography",
+     "classes": "col-md-3 grid-portfolio-item photography"
+    },
+    {
+     "id": "item-35",
+     "src": "/images/original/portfolio/media6.jpg",
+     "originalSrc": "img/portfolio/media6.jpg",
+     "title": "Media Study #35",
+     "category": "Media",
+     "classes": "col-md-3 grid-portfolio-item media"
+    },
+    {
+     "id": "item-36",
+     "src": "/images/original/portfolio/media7.jpg",
+     "originalSrc": "img/portfolio/media7.jpg",
+     "title": "Media Study #36",
+     "category": "Media",
+     "classes": "col-md-3 grid-portfolio-item media"
+    },
+    {
+     "id": "item-37",
+     "src": "/images/original/portfolio/photography12.jpg",
+     "originalSrc": "img/portfolio/photography12.jpg",
+     "title": "Photography Study #37",
+     "category": "Photography",
+     "classes": "col-md-3 grid-portfolio-item photography"
+    },
+    {
+     "id": "item-38",
+     "src": "/images/original/portfolio/media8.jpg",
+     "originalSrc": "img/portfolio/media8.jpg",
+     "title": "Media Study #38",
+     "category": "Media",
+     "classes": "col-md-3 grid-portfolio-item media"
+    },
+    {
+     "id": "item-39",
+     "src": "/images/original/portfolio/photography13.jpg",
+     "originalSrc": "img/portfolio/photography13.jpg",
+     "title": "Photography Study #39",
+     "category": "Photography",
+     "classes": "col-md-3 grid-portfolio-item photography"
+    },
+    {
+     "id": "item-40",
+     "src": "/images/original/portfolio/media9.jpg",
+     "originalSrc": "img/portfolio/media9.jpg",
+     "title": "Media Study #40",
+     "category": "Media",
+     "classes": "col-md-3 grid-portfolio-item media"
+    },
+    {
+     "id": "item-41",
+     "src": "/images/original/portfolio/photography14.jpg",
+     "originalSrc": "img/portfolio/photography14.jpg",
+     "title": "Photography Study #41",
+     "category": "Photography",
+     "classes": "col-md-3 grid-portfolio-item photography"
+    },
+    {
+     "id": "item-42",
+     "src": "/images/original/portfolio/media10.jpg",
+     "originalSrc": "img/portfolio/media10.jpg",
+     "title": "Media Study #42",
+     "category": "Media",
+     "classes": "col-md-3 grid-portfolio-item media"
+    },
+    {
+     "id": "item-43",
+     "src": "/images/original/portfolio/signature2.jpg",
+     "originalSrc": "img/portfolio/signature2.jpg",
+     "title": "Signature dishes Study #43",
+     "category": "Signature dishes",
+     "classes": "col-md-3 grid-portfolio-item signature"
+    },
+    {
+     "id": "item-44",
+     "src": "/images/original/portfolio/signature3.jpg",
+     "originalSrc": "img/portfolio/signature3.jpg",
+     "title": "Signature dishes Study #44",
+     "category": "Signature dishes",
+     "classes": "col-md-3 grid-portfolio-item signature"
+    },
+    {
+     "id": "item-45",
+     "src": "/images/original/portfolio/signature4.jpg",
+     "originalSrc": "img/portfolio/signature4.jpg",
+     "title": "Signature dishes Study #45",
+     "category": "Signature dishes",
+     "classes": "col-md-3 grid-portfolio-item signature"
+    },
+    {
+     "id": "item-46",
+     "src": "/images/original/portfolio/signature5.jpg",
+     "originalSrc": "img/portfolio/signature5.jpg",
+     "title": "Signature dishes Study #46",
+     "category": "Signature dishes",
+     "classes": "col-md-3 grid-portfolio-item signature"
+    },
+    {
+     "id": "item-47",
+     "src": "/images/original/portfolio/media11.jpg",
+     "originalSrc": "img/portfolio/media11.jpg",
+     "title": "Media Study #47",
+     "category": "Media",
+     "classes": "col-md-3 grid-portfolio-item media"
+    },
+    {
+     "id": "item-48",
+     "src": "/images/original/portfolio/media12.jpg",
+     "originalSrc": "img/portfolio/media12.jpg",
+     "title": "Media Study #48",
+     "category": "Media",
+     "classes": "col-md-3 grid-portfolio-item media"
+    },
+    {
+     "id": "item-49",
+     "src": "/images/original/portfolio/media13.jpg",
+     "originalSrc": "img/portfolio/media13.jpg",
+     "title": "Media Study #49",
+     "category": "Media",
+     "classes": "col-md-3 grid-portfolio-item media"
+    },
+    {
+     "id": "item-50",
+     "src": "/images/original/portfolio/media14.jpg",
+     "originalSrc": "img/portfolio/media14.jpg",
+     "title": "Media Study #50",
+     "category": "Media",
+     "classes": "col-md-3 grid-portfolio-item media"
+    },
+    {
+     "id": "item-51",
+     "src": "/images/original/portfolio/media15.jpg",
+     "originalSrc": "img/portfolio/media15.jpg",
+     "title": "Media Study #51",
+     "category": "Media",
+     "classes": "col-md-3 grid-portfolio-item media"
+    },
+    {
+     "id": "item-52",
+     "src": "/images/original/portfolio/media16.jpg",
+     "originalSrc": "img/portfolio/media16.jpg",
+     "title": "Media Study #52",
+     "category": "Media",
+     "classes": "col-md-3 grid-portfolio-item media"
+    },
+    {
+     "id": "item-53",
+     "src": "/images/original/portfolio/media17.jpg",
+     "originalSrc": "img/portfolio/media17.jpg",
+     "title": "Media Study #53",
+     "category": "Media",
+     "classes": "col-md-3 grid-portfolio-item media"
+    },
+    {
+     "id": "item-54",
+     "src": "/images/original/portfolio/media18.jpg",
+     "originalSrc": "img/portfolio/media18.jpg",
+     "title": "Media Study #54",
+     "category": "Media",
+     "classes": "col-md-3 grid-portfolio-item media"
+    },
+    {
+     "id": "item-55",
+     "src": "/images/original/portfolio/media19.jpg",
+     "originalSrc": "img/portfolio/media19.jpg",
+     "title": "Media Study #55",
+     "category": "Media",
+     "classes": "col-md-3 grid-portfolio-item media"
+    },
+    {
+     "id": "item-56",
+     "src": "/images/original/portfolio/signature6.jpg",
+     "originalSrc": "img/portfolio/signature6.jpg",
+     "title": "Signature dishes Study #56",
+     "category": "Signature dishes",
+     "classes": "col-md-3 grid-portfolio-item signature"
+    },
+    {
+     "id": "item-57",
+     "src": "/images/original/portfolio/signature7.jpg",
+     "originalSrc": "img/portfolio/signature7.jpg",
+     "title": "Signature dishes Study #57",
+     "category": "Signature dishes",
+     "classes": "col-md-3 grid-portfolio-item signature"
+    },
+    {
+     "id": "item-58",
+     "src": "/images/original/portfolio/signature8.jpg",
+     "originalSrc": "img/portfolio/signature8.jpg",
+     "title": "Signature dishes Study #58",
+     "category": "Signature dishes",
+     "classes": "col-md-3 grid-portfolio-item signature"
+    },
+    {
+     "id": "item-59",
+     "src": "/images/original/portfolio/signature14.jpg",
+     "originalSrc": "img/portfolio/signature14.jpg",
+     "title": "Signature dishes Study #59",
+     "category": "Signature dishes",
+     "classes": "col-md-3 grid-portfolio-item signature"
+    },
+    {
+     "id": "item-60",
+     "src": "/images/original/portfolio/signature15.jpg",
+     "originalSrc": "img/portfolio/signature15.jpg",
+     "title": "Signature dishes Study #60",
+     "category": "Signature dishes",
+     "classes": "col-md-3 grid-portfolio-item signature"
+    },
+    {
+     "id": "item-61",
+     "src": "/images/original/portfolio/media1.jpg",
+     "originalSrc": "img/portfolio/media1.jpg",
+     "title": "Media Study #61",
+     "category": "Media",
+     "classes": "col-md-3 grid-portfolio-item media"
+    },
+    {
+     "id": "item-62",
+     "src": "/images/original/portfolio/media20.jpg",
+     "originalSrc": "img/portfolio/media20.jpg",
+     "title": "Media Study #62",
+     "category": "Media",
+     "classes": "col-md-3 grid-portfolio-item media"
+    },
+    {
+     "id": "item-63",
+     "src": "/images/original/portfolio/media21.jpg",
+     "originalSrc": "img/portfolio/media21.jpg",
+     "title": "Media Study #63",
+     "category": "Media",
+     "classes": "col-md-3 grid-portfolio-item media"
+    },
+    {
+     "id": "item-64",
+     "src": "/images/original/portfolio/media22.jpg",
+     "originalSrc": "img/portfolio/media22.jpg",
+     "title": "Media Study #64",
+     "category": "Media",
+     "classes": "col-md-3 grid-portfolio-item media"
+    },
+    {
+     "id": "item-65",
+     "src": "/images/original/portfolio/food6.jpg",
+     "originalSrc": "img/portfolio/food6.jpg",
+     "title": "Food Study #65",
+     "category": "Food",
+     "classes": "col-md-3 grid-portfolio-item food"
+    },
+    {
+     "id": "item-66",
+     "src": "/images/original/portfolio/food7.jpg",
+     "originalSrc": "img/portfolio/food7.jpg",
+     "title": "Food Study #66",
+     "category": "Food",
+     "classes": "col-md-3 grid-portfolio-item food"
+    },
+    {
+     "id": "item-67",
+     "src": "/images/original/portfolio/food8.jpg",
+     "originalSrc": "img/portfolio/food8.jpg",
+     "title": "Food Study #67",
+     "category": "Food",
+     "classes": "col-md-3 grid-portfolio-item food"
+    },
+    {
+     "id": "item-68",
+     "src": "/images/original/portfolio/food9.jpg",
+     "originalSrc": "img/portfolio/food9.jpg",
+     "title": "Food Study #68",
+     "category": "Food",
+     "classes": "col-md-3 grid-portfolio-item food"
+    },
+    {
+     "id": "item-69",
+     "src": "/images/original/portfolio/food10.jpg",
+     "originalSrc": "img/portfolio/food10.jpg",
+     "title": "Food Study #69",
+     "category": "Food",
+     "classes": "col-md-3 grid-portfolio-item food"
+    },
+    {
+     "id": "item-70",
+     "src": "/images/original/portfolio/food11.jpg",
+     "originalSrc": "img/portfolio/food11.jpg",
+     "title": "Food Study #70",
+     "category": "Food",
+     "classes": "col-md-3 grid-portfolio-item food"
+    },
+    {
+     "id": "item-71",
+     "src": "/images/original/portfolio/media23.jpg",
+     "originalSrc": "img/portfolio/media23.jpg",
+     "title": "Media Study #71",
+     "category": "Media",
+     "classes": "col-md-3 grid-portfolio-item media"
+    },
+    {
+     "id": "item-72",
+     "src": "/images/original/portfolio/food.jpg",
+     "originalSrc": "img/portfolio/food.jpg",
+     "title": "Food Study #72",
+     "category": "Food",
+     "classes": "col-md-3 grid-portfolio-item food"
+    },
+    {
+     "id": "item-73",
+     "src": "/images/original/portfolio/food1.jpg",
+     "originalSrc": "img/portfolio/food1.jpg",
+     "title": "Food Study #73",
+     "category": "Food",
+     "classes": "col-md-3 grid-portfolio-item food"
+    },
+    {
+     "id": "item-74",
+     "src": "/images/original/portfolio/food2.jpg",
+     "originalSrc": "img/portfolio/food2.jpg",
+     "title": "Food Study #74",
+     "category": "Food",
+     "classes": "col-md-3 grid-portfolio-item food"
+    },
+    {
+     "id": "item-75",
+     "src": "/images/original/portfolio/food4.jpg",
+     "originalSrc": "img/portfolio/food4.jpg",
+     "title": "Food Study #75",
+     "category": "Food",
+     "classes": "col-md-3 grid-portfolio-item food"
+    },
+    {
+     "id": "item-76",
+     "src": "/images/original/portfolio/food5.jpg",
+     "originalSrc": "img/portfolio/food5.jpg",
+     "title": "Food Study #76",
+     "category": "Food",
+     "classes": "col-md-3 grid-portfolio-item food"
+    },
+    {
+     "id": "item-77",
+     "src": "/images/original/portfolio/food12.jpg",
+     "originalSrc": "img/portfolio/food12.jpg",
+     "title": "Food Study #77",
+     "category": "Food",
+     "classes": "col-md-3 grid-portfolio-item food"
+    },
+    {
+     "id": "item-78",
+     "src": "/images/original/portfolio/food13.jpg",
+     "originalSrc": "img/portfolio/food13.jpg",
+     "title": "Food Study #78",
+     "category": "Food",
+     "classes": "col-md-3 grid-portfolio-item food"
+    },
+    {
+     "id": "item-79",
+     "src": "/images/original/portfolio/food14.jpg",
+     "originalSrc": "img/portfolio/food14.jpg",
+     "title": "Food Study #79",
+     "category": "Food",
+     "classes": "col-md-3 grid-portfolio-item food"
+    },
+    {
+     "id": "item-80",
+     "src": "/images/original/portfolio/signature1.jpg",
+     "originalSrc": "img/portfolio/signature1.jpg",
+     "title": "Signature dishes Study #80",
+     "category": "Signature dishes",
+     "classes": "col-md-3 grid-portfolio-item signature"
+    },
+    {
+     "id": "item-81",
+     "src": "/images/original/portfolio/travel8.jpg",
+     "originalSrc": "img/portfolio/travel8.jpg",
+     "title": "Travel Study #81",
+     "category": "Travel",
+     "classes": "col-md-3 grid-portfolio-item travel"
+    },
+    {
+     "id": "item-82",
+     "src": "/images/original/portfolio/travel9.jpg",
+     "originalSrc": "img/portfolio/travel9.jpg",
+     "title": "Travel Study #82",
+     "category": "Travel",
+     "classes": "col-md-3 grid-portfolio-item travel"
+    },
+    {
+     "id": "item-83",
+     "src": "/images/original/portfolio/travel10.jpg",
+     "originalSrc": "img/portfolio/travel10.jpg",
+     "title": "Travel Study #83",
+     "category": "Travel",
+     "classes": "col-md-3 grid-portfolio-item travel"
+    },
+    {
+     "id": "item-84",
+     "src": "/images/original/portfolio/travel11.jpg",
+     "originalSrc": "img/portfolio/travel11.jpg",
+     "title": "Travel Study #84",
+     "category": "Travel",
+     "classes": "col-md-3 grid-portfolio-item travel"
+    },
+    {
+     "id": "item-85",
+     "src": "/images/original/portfolio/travel12.jpg",
+     "originalSrc": "img/portfolio/travel12.jpg",
+     "title": "Travel Study #85",
+     "category": "Travel",
+     "classes": "col-md-3 grid-portfolio-item travel"
+    },
+    {
+     "id": "item-86",
+     "src": "/images/original/portfolio/travel13.jpg",
+     "originalSrc": "img/portfolio/travel13.jpg",
+     "title": "Travel Study #86",
+     "category": "Travel",
+     "classes": "col-md-3 grid-portfolio-item travel"
+    },
+    {
+     "id": "item-87",
+     "src": "/images/original/portfolio/travel14.jpg",
+     "originalSrc": "img/portfolio/travel14.jpg",
+     "title": "Travel Study #87",
+     "category": "Travel",
+     "classes": "col-md-3 grid-portfolio-item travel"
+    },
+    {
+     "id": "item-88",
+     "src": "/images/original/portfolio/travel16.jpg",
+     "originalSrc": "img/portfolio/travel16.jpg",
+     "title": "Travel Study #88",
+     "category": "Travel",
+     "classes": "col-md-3 grid-portfolio-item travel"
+    },
+    {
+     "id": "item-89",
+     "src": "/images/original/portfolio/travel17.jpg",
+     "originalSrc": "img/portfolio/travel17.jpg",
+     "title": "Travel Study #89",
+     "category": "Travel",
+     "classes": "col-md-3 grid-portfolio-item travel"
+    },
+    {
+     "id": "item-90",
+     "src": "/images/original/portfolio/travel18.jpg",
+     "originalSrc": "img/portfolio/travel18.jpg",
+     "title": "Travel Study #90",
+     "category": "Travel",
+     "classes": "col-md-3 grid-portfolio-item travel"
+    },
+    {
+     "id": "item-91",
+     "src": "/images/original/portfolio/travel19.jpg",
+     "originalSrc": "img/portfolio/travel19.jpg",
+     "title": "Travel Study #91",
+     "category": "Travel",
+     "classes": "col-md-3 grid-portfolio-item travel"
+    },
+    {
+     "id": "item-92",
+     "src": "/images/original/portfolio/travel20.jpg",
+     "originalSrc": "img/portfolio/travel20.jpg",
+     "title": "Travel Study #92",
+     "category": "Travel",
+     "classes": "col-md-3 grid-portfolio-item travel"
+    },
+    {
+     "id": "item-93",
+     "src": "/images/original/portfolio/travel21.jpg",
+     "originalSrc": "img/portfolio/travel21.jpg",
+     "title": "Travel Study #93",
+     "category": "Travel",
+     "classes": "col-md-3 grid-portfolio-item travel"
+    },
+    {
+     "id": "item-94",
+     "src": "/images/original/portfolio/travel22.jpg",
+     "originalSrc": "img/portfolio/travel22.jpg",
+     "title": "Travel Study #94",
+     "category": "Travel",
+     "classes": "col-md-3 grid-portfolio-item travel"
+    },
+    {
+     "id": "item-95",
+     "src": "/images/original/portfolio/travel23.jpg",
+     "originalSrc": "img/portfolio/travel23.jpg",
+     "title": "Travel Study #95",
+     "category": "Travel",
+     "classes": "col-md-3 grid-portfolio-item travel"
+    },
+    {
+     "id": "item-96",
+     "src": "/images/original/portfolio/travel24.jpg",
+     "originalSrc": "img/portfolio/travel24.jpg",
+     "title": "Travel Study #96",
+     "category": "Travel",
+     "classes": "col-md-3 grid-portfolio-item travel"
+    },
+    {
+     "id": "item-97",
+     "src": "/images/original/portfolio/photography1.jpg",
+     "originalSrc": "img/portfolio/photography1.jpg",
+     "title": "Photography Study #97",
+     "category": "Photography",
+     "classes": "col-md-3 grid-portfolio-item photography"
+    },
+    {
+     "id": "item-98",
+     "src": "/images/original/other/site-logo.png",
+     "originalSrc": "img/logos/site-logo.png",
+     "title": "General Study #98",
+     "category": "General",
+     "classes": "col-md-12"
+    }
+   ]
+  },
+  "recipes": {
+   "heading": "RECIPES & CULINARY STORIES",
+   "mainStatement": "PUBLISHING SOON",
+   "supportingStatement": "A curated collection of signature recipes, masterclass techniques, and culinary reflections is on its way.",
+   "featuredImage": "/images/original/fullwidth/model3.jpg",
+   "schemaPreview": {
+    "fields": [
+     "title",
+     "slug",
+     "featuredImage",
+     "description",
+     "ingredients",
+     "method",
+     "prepTime",
+     "cookTime",
+     "servings",
+     "cuisine",
+     "category"
+    ]
+   }
+  },
+  "videos": {
+   "heading": "CULINARY STORIES IN MOTION",
+   "subheading": "A curated archive of culinary demonstrations, masterclasses, and gastronomic features.",
+   "videos": [
+    {
+     "id": "UErEuY-U0k4",
+     "embedUrl": "https://www.youtube.com/embed/UErEuY-U0k4",
+     "watchUrl": "https://www.youtube.com/watch?v=UErEuY-U0k4",
+     "thumbnail": "https://img.youtube.com/vi/UErEuY-U0k4/hqdefault.jpg",
+     "fallbackThumbnail": "https://img.youtube.com/vi/UErEuY-U0k4/hqdefault.jpg",
+     "order": 1
+    },
+    {
+     "id": "tMc7cA447Ts",
+     "embedUrl": "https://www.youtube.com/embed/tMc7cA447Ts",
+     "watchUrl": "https://www.youtube.com/watch?v=tMc7cA447Ts",
+     "thumbnail": "https://img.youtube.com/vi/tMc7cA447Ts/hqdefault.jpg",
+     "fallbackThumbnail": "https://img.youtube.com/vi/tMc7cA447Ts/hqdefault.jpg",
+     "order": 2
+    },
+    {
+     "id": "wtHmmZSI-WA",
+     "embedUrl": "https://www.youtube.com/embed/wtHmmZSI-WA",
+     "watchUrl": "https://www.youtube.com/watch?v=wtHmmZSI-WA",
+     "thumbnail": "https://img.youtube.com/vi/wtHmmZSI-WA/hqdefault.jpg",
+     "fallbackThumbnail": "https://img.youtube.com/vi/wtHmmZSI-WA/hqdefault.jpg",
+     "order": 3
+    },
+    {
+     "id": "HA8vpVEX9wc",
+     "embedUrl": "https://www.youtube.com/embed/HA8vpVEX9wc",
+     "watchUrl": "https://www.youtube.com/watch?v=HA8vpVEX9wc",
+     "thumbnail": "https://img.youtube.com/vi/HA8vpVEX9wc/hqdefault.jpg",
+     "fallbackThumbnail": "https://img.youtube.com/vi/HA8vpVEX9wc/hqdefault.jpg",
+     "order": 4
+    },
+    {
+     "id": "SHQuh8pERAk",
+     "embedUrl": "https://www.youtube.com/embed/SHQuh8pERAk",
+     "watchUrl": "https://www.youtube.com/watch?v=SHQuh8pERAk",
+     "thumbnail": "https://img.youtube.com/vi/SHQuh8pERAk/hqdefault.jpg",
+     "fallbackThumbnail": "https://img.youtube.com/vi/SHQuh8pERAk/hqdefault.jpg",
+     "order": 5
+    },
+    {
+     "id": "2n1Ldn3hQdw",
+     "embedUrl": "https://www.youtube.com/embed/2n1Ldn3hQdw",
+     "watchUrl": "https://www.youtube.com/watch?v=2n1Ldn3hQdw",
+     "thumbnail": "https://img.youtube.com/vi/2n1Ldn3hQdw/hqdefault.jpg",
+     "fallbackThumbnail": "https://img.youtube.com/vi/2n1Ldn3hQdw/hqdefault.jpg",
+     "order": 6
+    },
+    {
+     "id": "CzDRwcKWVg0",
+     "embedUrl": "https://www.youtube.com/embed/CzDRwcKWVg0",
+     "watchUrl": "https://www.youtube.com/watch?v=CzDRwcKWVg0",
+     "thumbnail": "https://img.youtube.com/vi/CzDRwcKWVg0/hqdefault.jpg",
+     "fallbackThumbnail": "https://img.youtube.com/vi/CzDRwcKWVg0/hqdefault.jpg",
+     "order": 7
+    },
+    {
+     "id": "WvgPfQT381Q",
+     "embedUrl": "https://www.youtube.com/embed/WvgPfQT381Q",
+     "watchUrl": "https://www.youtube.com/watch?v=WvgPfQT381Q",
+     "thumbnail": "https://img.youtube.com/vi/WvgPfQT381Q/hqdefault.jpg",
+     "fallbackThumbnail": "https://img.youtube.com/vi/WvgPfQT381Q/hqdefault.jpg",
+     "order": 8
+    },
+    {
+     "id": "UEHZiPQVR-g",
+     "embedUrl": "https://www.youtube.com/embed/UEHZiPQVR-g",
+     "watchUrl": "https://www.youtube.com/watch?v=UEHZiPQVR-g",
+     "thumbnail": "https://img.youtube.com/vi/UEHZiPQVR-g/hqdefault.jpg",
+     "fallbackThumbnail": "https://img.youtube.com/vi/UEHZiPQVR-g/hqdefault.jpg",
+     "order": 9
+    },
+    {
+     "id": "4ubC6-RKAww",
+     "embedUrl": "https://www.youtube.com/embed/4ubC6-RKAww",
+     "watchUrl": "https://www.youtube.com/watch?v=4ubC6-RKAww",
+     "thumbnail": "https://img.youtube.com/vi/4ubC6-RKAww/hqdefault.jpg",
+     "fallbackThumbnail": "https://img.youtube.com/vi/4ubC6-RKAww/hqdefault.jpg",
+     "order": 10
+    },
+    {
+     "id": "LDRG_dxtKyw",
+     "embedUrl": "https://www.youtube.com/embed/LDRG_dxtKyw",
+     "watchUrl": "https://www.youtube.com/watch?v=LDRG_dxtKyw",
+     "thumbnail": "https://img.youtube.com/vi/LDRG_dxtKyw/hqdefault.jpg",
+     "fallbackThumbnail": "https://img.youtube.com/vi/LDRG_dxtKyw/hqdefault.jpg",
+     "order": 11
+    },
+    {
+     "id": "LlV-zq3G61E",
+     "embedUrl": "https://www.youtube.com/embed/LlV-zq3G61E",
+     "watchUrl": "https://www.youtube.com/watch?v=LlV-zq3G61E",
+     "thumbnail": "https://img.youtube.com/vi/LlV-zq3G61E/hqdefault.jpg",
+     "fallbackThumbnail": "https://img.youtube.com/vi/LlV-zq3G61E/hqdefault.jpg",
+     "order": 12
+    },
+    {
+     "id": "s563meQRrrM",
+     "embedUrl": "https://www.youtube.com/embed/s563meQRrrM",
+     "watchUrl": "https://www.youtube.com/watch?v=s563meQRrrM",
+     "thumbnail": "https://img.youtube.com/vi/s563meQRrrM/hqdefault.jpg",
+     "fallbackThumbnail": "https://img.youtube.com/vi/s563meQRrrM/hqdefault.jpg",
+     "order": 13
+    },
+    {
+     "id": "XD8DsQAARIo",
+     "embedUrl": "https://www.youtube.com/embed/XD8DsQAARIo",
+     "watchUrl": "https://www.youtube.com/watch?v=XD8DsQAARIo",
+     "thumbnail": "https://img.youtube.com/vi/XD8DsQAARIo/hqdefault.jpg",
+     "fallbackThumbnail": "https://img.youtube.com/vi/XD8DsQAARIo/hqdefault.jpg",
+     "order": 14
+    },
+    {
+     "id": "kD7NTwsQ8PE",
+     "embedUrl": "https://www.youtube.com/embed/kD7NTwsQ8PE",
+     "watchUrl": "https://www.youtube.com/watch?v=kD7NTwsQ8PE",
+     "thumbnail": "https://img.youtube.com/vi/kD7NTwsQ8PE/hqdefault.jpg",
+     "fallbackThumbnail": "https://img.youtube.com/vi/kD7NTwsQ8PE/hqdefault.jpg",
+     "order": 15
+    },
+    {
+     "id": "kz5AYZ0M81M",
+     "embedUrl": "https://www.youtube.com/embed/kz5AYZ0M81M",
+     "watchUrl": "https://www.youtube.com/watch?v=kz5AYZ0M81M",
+     "thumbnail": "https://img.youtube.com/vi/kz5AYZ0M81M/hqdefault.jpg",
+     "fallbackThumbnail": "https://img.youtube.com/vi/kz5AYZ0M81M/hqdefault.jpg",
+     "order": 16
+    },
+    {
+     "id": "es1uumEiQvw",
+     "embedUrl": "https://www.youtube.com/embed/es1uumEiQvw",
+     "watchUrl": "https://www.youtube.com/watch?v=es1uumEiQvw",
+     "thumbnail": "https://img.youtube.com/vi/es1uumEiQvw/hqdefault.jpg",
+     "fallbackThumbnail": "https://img.youtube.com/vi/es1uumEiQvw/hqdefault.jpg",
+     "order": 17
+    },
+    {
+     "id": "4nMqMVcJsxE",
+     "embedUrl": "https://www.youtube.com/embed/4nMqMVcJsxE",
+     "watchUrl": "https://www.youtube.com/watch?v=4nMqMVcJsxE",
+     "thumbnail": "https://img.youtube.com/vi/4nMqMVcJsxE/hqdefault.jpg",
+     "fallbackThumbnail": "https://img.youtube.com/vi/4nMqMVcJsxE/hqdefault.jpg",
+     "order": 18
+    },
+    {
+     "id": "W8JIJqzyBlU",
+     "embedUrl": "https://www.youtube.com/embed/W8JIJqzyBlU",
+     "watchUrl": "https://www.youtube.com/watch?v=W8JIJqzyBlU",
+     "thumbnail": "https://img.youtube.com/vi/W8JIJqzyBlU/hqdefault.jpg",
+     "fallbackThumbnail": "https://img.youtube.com/vi/W8JIJqzyBlU/hqdefault.jpg",
+     "order": 19
+    },
+    {
+     "id": "hX7N-JXLdHo",
+     "embedUrl": "https://www.youtube.com/embed/hX7N-JXLdHo",
+     "watchUrl": "https://www.youtube.com/watch?v=hX7N-JXLdHo",
+     "thumbnail": "https://img.youtube.com/vi/hX7N-JXLdHo/hqdefault.jpg",
+     "fallbackThumbnail": "https://img.youtube.com/vi/hX7N-JXLdHo/hqdefault.jpg",
+     "order": 20
+    },
+    {
+     "id": "t6oeoCioqf0",
+     "embedUrl": "https://www.youtube.com/embed/t6oeoCioqf0",
+     "watchUrl": "https://www.youtube.com/watch?v=t6oeoCioqf0",
+     "thumbnail": "https://img.youtube.com/vi/t6oeoCioqf0/hqdefault.jpg",
+     "fallbackThumbnail": "https://img.youtube.com/vi/t6oeoCioqf0/hqdefault.jpg",
+     "order": 21
+    },
+    {
+     "id": "9j_FdLYLQBM",
+     "embedUrl": "https://www.youtube.com/embed/9j_FdLYLQBM",
+     "watchUrl": "https://www.youtube.com/watch?v=9j_FdLYLQBM",
+     "thumbnail": "https://img.youtube.com/vi/9j_FdLYLQBM/hqdefault.jpg",
+     "fallbackThumbnail": "https://img.youtube.com/vi/9j_FdLYLQBM/hqdefault.jpg",
+     "order": 22
+    }
+   ]
+  },
+  "contact": {
+   "heading": "LET'S START A CONVERSATION",
+   "subheading": "Available for executive culinary consultations, restaurant concept development, luxury hospitality collaborations, and culinary advisory.",
+   "contactDetails": {
+    "name": "Chef Anand Kumar",
+    "title": "Executive Chef & Hospitality Consultant",
+    "phone": "+91 9703712340",
+    "phoneNote": "Business days only",
+    "email": "anand_hotel@yahoo.com",
+    "emailNote": "Up to 72 hours respond",
+    "address": {
+     "building": "Prime Legend, Flat-814, Block-B",
+     "street": "Kondapur, Masjid Banda, Next to MG Car Showroom",
+     "city": "Hyderabad",
+     "state": "Telangana",
+     "postalCode": "500084",
+     "country": "India"
+    }
+   },
+   "enquiryTypes": [
+    "General Enquiries",
+    "Restaurant & Hospitality Consulting",
+    "Culinary Collaborations & Pop-ups",
+    "Kitchen & Menu Design",
+    "Media & Speaking Engagements"
+   ]
+  }
+ },
+ "services": [
+  {
+   "id": "fork-theory",
+   "title": "FORK THEORY",
+   "description": "ForkTheory is a strategy-led restaurant consultancy that transforms culinary ideas into high-performing, scalable food businesses. We specialize in concept development, menu engineering, kitchen systems, operational excellence, staff training, and growth strategy — combining creativity with data, discipline with design, and passion with performance. From startups to multi-unit brands, ForkTheory builds restaurants that launch stronger, operate smarter, and scale sustainably while delivering exceptional guest experiences and measurable financial results."
+  },
+  {
+   "id": "cuisine",
+   "title": "Cuisine",
+   "description": "That sounds like an exciting and diverse concept for a restaurant! To create a menu that aligns with market needs and the restaurant's theme, we can start by conducting thorough market research to understand the preferences of potential customers. Based on this research, we can develop a menu that offers a mix of European, Asian, Oriental, and regional cuisines to cater to a wide range of tastes."
+  },
+  {
+   "id": "kitchen-designing",
+   "title": "Kitchen designing",
+   "description": "Creating an efficient and cost-effective kitchen layout tailored to the restaurant's concept and cuisine is crucial for maximizing productivity and maintaining quality standards, especially in a small space. Here are some key considerations for designing a process-friendly kitchen layout:"
+  },
+  {
+   "id": "restaurant-designing",
+   "title": "Restaurant designing",
+   "description": "That's wonderful to hear! It sounds like you are delving deep into the creation process of your restaurant concept. Developing a clear and cohesive concept is key to establishing a distinct identity for your establishment. From the cuisine to be served, the type of food offered, serving style, packaging, and service rituals, each element plays a crucial role in shaping the overall experience for your guests."
+  },
+  {
+   "id": "equipment-procurement",
+   "title": "Equipment procurement",
+   "description": "We will be offering a range of options for purchasing equipment, catering to different budget levels and quality preferences. Having access to a variety of suppliers can provide flexibility and ensure that you can find the right equipment to suit your needs and budget."
+  },
+  {
+   "id": "team-training",
+   "title": "Team training",
+   "description": "We plan a comprehensive training program for your team, tailored to the concept, cuisine, and skill level required. Offering three levels of training - Basic, Mid, and Advanced - is a great way to ensure that each team member receives the necessary skills and knowledge to excel in their roles."
+  },
+  {
+   "id": "hiring",
+   "title": "Hiring",
+   "description": "That sounds like a fantastic service you provide! Building a strong team is crucial for the success of any business, especially in the hospitality industry. Recommending candidates with experience in five-star hotels or luxury restaurants can truly elevate the level of service and expertise within a team. If there's anything specific you'd like assistance with or if you have any questions, feel free to let me know. I'm here to help!."
+  },
+  {
+   "id": "menu-planning",
+   "title": "Menu planning",
+   "description": "That sounds like a fantastic service you provide! Building a strong team is crucial for the success of any business, especially in the hospitality industry. Recommending candidates with experience in five-star hotels or luxury restaurants can truly elevate the level of service and expertise within a team. If there's anything specific you'd like assistance with or if you have any questions, feel free to let me know. I'm here to help!"
+  }
+ ],
+ "career": [
+  {
+   "period": "Foundational Education",
+   "role": "Culinary & Hospitality Education",
+   "organization": "Institute of Hotel Management, Catering Technology & Applied Nutrition",
+   "location": "Kolkata, India",
+   "description": "Comprehensive formal culinary arts and hospitality administration training, establishing rigorous foundational French and international classical culinary techniques.",
+   "type": "education"
+  },
+  {
+   "period": "2002 - Early Professional Training",
+   "role": "Kitchen Operations & Culinary Craft",
+   "organization": "JW Marriott Mumbai",
+   "location": "Mumbai, India",
+   "description": "Intensive culinary operations at one of India's premier luxury flagship hotels, mastering high-volume banquet excellence and fine dining precision.",
+   "type": "luxury_hotel"
+  },
+  {
+   "period": "Progression through Senior Kitchen Roles",
+   "role": "Sous Chef & Senior Kitchen Operations",
+   "organization": "Hyatt Regency Mumbai",
+   "location": "Mumbai, India",
+   "description": "Advanced through culinary leadership tiers, supervising kitchen brigades, specialty restaurant conceptualization, and international culinary standards.",
+   "type": "luxury_hotel"
+  },
+  {
+   "period": "2014 - First Executive Chef Role",
+   "role": "Executive Chef",
+   "organization": "Hyatt Hyderabad",
+   "location": "Hyderabad, India",
+   "description": "Assumed full culinary directorship as Executive Chef in 2014, steering kitchen brigade leadership, signature menus, VIP banquets, and operational profitability.",
+   "type": "executive_leadership"
+  },
+  {
+   "period": "Executive Leadership",
+   "role": "Executive Chef",
+   "organization": "Hilton Bengaluru Embassy GolfLinks",
+   "location": "Bengaluru, India",
+   "description": "Led culinary direction and high-end restaurant concepts in Bengaluru's prominent luxury business and lifestyle precinct.",
+   "type": "luxury_hotel"
+  },
+  {
+   "period": "International Island Resort Luxury",
+   "role": "Executive Chef",
+   "organization": "VARU by Atmosphere",
+   "location": "Maldives",
+   "description": "Orchestrated premium multi-outlet culinary programs at the luxury private island resort, catering to discerning global travelers and sustainable oceanfront gastronomy.",
+   "type": "luxury_resort"
+  },
+  {
+   "period": "Five-Star Luxury Resort Directorship",
+   "role": "Executive Chef",
+   "organization": "Emerald Zanzibar Resort & Spa",
+   "location": "Zanzibar, Tanzania",
+   "description": "Directed high-end multi-concept resort dining, fusing East African coastal flavors with global fine dining standards across multiple signature restaurants.",
+   "type": "luxury_resort"
+  },
+  {
+   "period": "Luxury Destination Resort Operations",
+   "role": "Executive Chef",
+   "organization": "JW Marriott Goa",
+   "location": "Goa, India",
+   "description": "Curated coastal culinary luxury, farm-to-table partnerships, and signature dining venues in India's leading luxury leisure destination.",
+   "type": "luxury_hotel"
+  },
+  {
+   "period": "Bespoke Wilderness Luxury",
+   "role": "Executive Chef",
+   "organization": "Meliá Ngorongoro Lodge",
+   "location": "Ngorongoro Conservation Area, Tanzania",
+   "description": "Engineered extraordinary wilderness dining experiences overlooking the UNESCO World Heritage crater, integrating local tribal harvests with world-class fine dining.",
+   "type": "luxury_resort"
+  },
+  {
+   "period": "Polo Club & Boutique Luxury",
+   "role": "Executive Chef",
+   "organization": "Meliá Desert Palm",
+   "location": "Dubai, United Arab Emirates",
+   "description": "Spearheaded premier equestrian estate dining, Argentine asado steakhouse traditions, and contemporary international gastronomy in Dubai.",
+   "type": "luxury_resort"
+  },
+  {
+   "period": "International Executive Directorship",
+   "role": "Executive Chef",
+   "organization": "The George Hotel",
+   "location": "Lagos, Nigeria",
+   "description": "Executive culinary leader steering Lagos' renowned luxury boutique hotel, driving culinary prestige, diplomatic dining, and benchmark hospitality excellence.",
+   "type": "executive_leadership"
+  }
+ ],
+ "blogArticles": []
+}

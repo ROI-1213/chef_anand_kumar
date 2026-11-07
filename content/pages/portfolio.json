@@ -1,0 +1,798 @@
+{
+ "heading": "SELECTED CULINARY PORTFOLIO",
+ "subheading": "An exhibition of haute cuisine, bespoke plating, international travels, and culinary artistry.",
+ "categories": [
+  "All",
+  "Media",
+  "Food",
+  "Signature dishes",
+  "Travel",
+  "Photography"
+ ],
+ "items": [
+  {
+   "id": "item-1",
+   "src": "/images/original/portfolio/signature10.jpg",
+   "originalSrc": "img/portfolio/signature10.jpg",
+   "title": "Signature dishes Study #1",
+   "category": "Signature dishes",
+   "classes": "grid-portfolio"
+  },
+  {
+   "id": "item-2",
+   "src": "/images/original/portfolio/signature17.jpg",
+   "originalSrc": "img/portfolio/signature17.jpg",
+   "title": "Signature dishes Study #2",
+   "category": "Signature dishes",
+   "classes": "col-md-3 grid-portfolio-item signature"
+  },
+  {
+   "id": "item-3",
+   "src": "/images/original/portfolio/photography15.jpg",
+   "originalSrc": "img/portfolio/photography15.jpg",
+   "title": "Photography Study #3",
+   "category": "Photography",
+   "classes": "col-md-3 grid-portfolio-item photography"
+  },
+  {
+   "id": "item-4",
+   "src": "/images/original/portfolio/signature19.jpg",
+   "originalSrc": "img/portfolio/signature19.jpg",
+   "title": "Signature dishes Study #4",
+   "category": "Signature dishes",
+   "classes": "col-md-3 grid-portfolio-item signature"
+  },
+  {
+   "id": "item-5",
+   "src": "/images/original/portfolio/photography4.jpg",
+   "originalSrc": "img/portfolio/photography4.jpg",
+   "title": "Photography Study #5",
+   "category": "Photography",
+   "classes": "col-md-3 grid-portfolio-item photography"
+  },
+  {
+   "id": "item-6",
+   "src": "/images/original/portfolio/photography16.jpg",
+   "originalSrc": "img/portfolio/photography16.jpg",
+   "title": "Photography Study #6",
+   "category": "Photography",
+   "classes": "col-md-3 grid-portfolio-item photography"
+  },
+  {
+   "id": "item-7",
+   "src": "/images/original/portfolio/signature18.jpg",
+   "originalSrc": "img/portfolio/signature18.jpg",
+   "title": "Signature dishes Study #7",
+   "category": "Signature dishes",
+   "classes": "col-md-3 grid-portfolio-item signature"
+  },
+  {
+   "id": "item-8",
+   "src": "/images/original/portfolio/photography5.jpg",
+   "originalSrc": "img/portfolio/photography5.jpg",
+   "title": "Photography Study #8",
+   "category": "Photography",
+   "classes": "col-md-3 grid-portfolio-item photography"
+  },
+  {
+   "id": "item-9",
+   "src": "/images/original/portfolio/photography17.jpg",
+   "originalSrc": "img/portfolio/photography17.jpg",
+   "title": "Photography Study #9",
+   "category": "Photography",
+   "classes": "col-md-3 grid-portfolio-item photography"
+  },
+  {
+   "id": "item-10",
+   "src": "/images/original/portfolio/photography6.jpg",
+   "originalSrc": "img/portfolio/photography6.jpg",
+   "title": "Photography Study #10",
+   "category": "Photography",
+   "classes": "col-md-3 grid-portfolio-item photography"
+  },
+  {
+   "id": "item-11",
+   "src": "/images/original/portfolio/signature9.jpg",
+   "originalSrc": "img/portfolio/signature9.jpg",
+   "title": "Signature dishes Study #11",
+   "category": "Signature dishes",
+   "classes": "col-md-3 grid-portfolio-item signature"
+  },
+  {
+   "id": "item-12",
+   "src": "/images/original/portfolio/signature11.jpg",
+   "originalSrc": "img/portfolio/signature11.jpg",
+   "title": "Signature dishes Study #12",
+   "category": "Signature dishes",
+   "classes": "col-md-3 grid-portfolio-item signature"
+  },
+  {
+   "id": "item-13",
+   "src": "/images/original/portfolio/photography2.jpg",
+   "originalSrc": "img/portfolio/photography2.jpg",
+   "title": "Photography Study #13",
+   "category": "Photography",
+   "classes": "col-md-3 grid-portfolio-item photography"
+  },
+  {
+   "id": "item-14",
+   "src": "/images/original/portfolio/photography3.jpg",
+   "originalSrc": "img/portfolio/photography3.jpg",
+   "title": "Photography Study #14",
+   "category": "Photography",
+   "classes": "col-md-3 grid-portfolio-item photography"
+  },
+  {
+   "id": "item-15",
+   "src": "/images/original/portfolio/travel1.jpg",
+   "originalSrc": "img/portfolio/travel1.jpg",
+   "title": "Travel Study #15",
+   "category": "Travel",
+   "classes": "col-md-3 grid-portfolio-item travel"
+  },
+  {
+   "id": "item-16",
+   "src": "/images/original/portfolio/photography19.jpg",
+   "originalSrc": "img/portfolio/photography19.jpg",
+   "title": "Photography Study #16",
+   "category": "Photography",
+   "classes": "col-md-3 grid-portfolio-item photography"
+  },
+  {
+   "id": "item-17",
+   "src": "/images/original/portfolio/photography18.jpg",
+   "originalSrc": "img/portfolio/photography18.jpg",
+   "title": "Photography Study #17",
+   "category": "Photography",
+   "classes": "col-md-3 grid-portfolio-item photography"
+  },
+  {
+   "id": "item-18",
+   "src": "/images/original/portfolio/travel2.jpg",
+   "originalSrc": "img/portfolio/travel2.jpg",
+   "title": "Travel Study #18",
+   "category": "Travel",
+   "classes": "col-md-3 grid-portfolio-item travel"
+  },
+  {
+   "id": "item-19",
+   "src": "/images/original/portfolio/travel3.jpg",
+   "originalSrc": "img/portfolio/travel3.jpg",
+   "title": "Travel Study #19",
+   "category": "Travel",
+   "classes": "col-md-3 grid-portfolio-item travel"
+  },
+  {
+   "id": "item-20",
+   "src": "/images/original/portfolio/travel4.jpg",
+   "originalSrc": "img/portfolio/travel4.jpg",
+   "title": "Travel Study #20",
+   "category": "Travel",
+   "classes": "col-md-3 grid-portfolio-item travel"
+  },
+  {
+   "id": "item-21",
+   "src": "/images/original/portfolio/travel5.jpg",
+   "originalSrc": "img/portfolio/travel5.jpg",
+   "title": "Travel Study #21",
+   "category": "Travel",
+   "classes": "col-md-3 grid-portfolio-item travel"
+  },
+  {
+   "id": "item-22",
+   "src": "/images/original/portfolio/photography7.jpg",
+   "originalSrc": "img/portfolio/photography7.jpg",
+   "title": "Photography Study #22",
+   "category": "Photography",
+   "classes": "col-md-3 grid-portfolio-item photography"
+  },
+  {
+   "id": "item-23",
+   "src": "/images/original/portfolio/photography8.jpg",
+   "originalSrc": "img/portfolio/photography8.jpg",
+   "title": "Photography Study #23",
+   "category": "Photography",
+   "classes": "col-md-3 grid-portfolio-item photography"
+  },
+  {
+   "id": "item-24",
+   "src": "/images/original/portfolio/travel6.jpg",
+   "originalSrc": "img/portfolio/travel6.jpg",
+   "title": "Travel Study #24",
+   "category": "Travel",
+   "classes": "col-md-3 grid-portfolio-item travel"
+  },
+  {
+   "id": "item-25",
+   "src": "/images/original/portfolio/travel7.jpg",
+   "originalSrc": "img/portfolio/travel7.jpg",
+   "title": "Travel Study #25",
+   "category": "Travel",
+   "classes": "col-md-3 grid-portfolio-item travel"
+  },
+  {
+   "id": "item-26",
+   "src": "/images/original/portfolio/signature12.jpg",
+   "originalSrc": "img/portfolio/signature12.jpg",
+   "title": "Signature dishes Study #26",
+   "category": "Signature dishes",
+   "classes": "col-md-3 grid-portfolio-item signature"
+  },
+  {
+   "id": "item-27",
+   "src": "/images/original/portfolio/signature13.jpg",
+   "originalSrc": "img/portfolio/signature13.jpg",
+   "title": "Signature dishes Study #27",
+   "category": "Signature dishes",
+   "classes": "col-md-3 grid-portfolio-item signature"
+  },
+  {
+   "id": "item-28",
+   "src": "/images/original/portfolio/photography9.jpg",
+   "originalSrc": "img/portfolio/photography9.jpg",
+   "title": "Photography Study #28",
+   "category": "Photography",
+   "classes": "col-md-3 grid-portfolio-item photography"
+  },
+  {
+   "id": "item-29",
+   "src": "/images/original/portfolio/media2.jpg",
+   "originalSrc": "img/portfolio/media2.jpg",
+   "title": "Media Study #29",
+   "category": "Media",
+   "classes": "col-md-3 grid-portfolio-item media"
+  },
+  {
+   "id": "item-30",
+   "src": "/images/original/portfolio/media3.jpg",
+   "originalSrc": "img/portfolio/media3.jpg",
+   "title": "Media Study #30",
+   "category": "Media",
+   "classes": "col-md-3 grid-portfolio-item media"
+  },
+  {
+   "id": "item-31",
+   "src": "/images/original/portfolio/media4.jpg",
+   "originalSrc": "img/portfolio/media4.jpg",
+   "title": "Media Study #31",
+   "category": "Media",
+   "classes": "col-md-3 grid-portfolio-item media"
+  },
+  {
+   "id": "item-32",
+   "src": "/images/original/portfolio/photography10.jpg",
+   "originalSrc": "img/portfolio/photography10.jpg",
+   "title": "Photography Study #32",
+   "category": "Photography",
+   "classes": "col-md-3 grid-portfolio-item photography"
+  },
+  {
+   "id": "item-33",
+   "src": "/images/original/portfolio/media5.jpg",
+   "originalSrc": "img/portfolio/media5.jpg",
+   "title": "Media Study #33",
+   "category": "Media",
+   "classes": "col-md-3 grid-portfolio-item media"
+  },
+  {
+   "id": "item-34",
+   "src": "/images/original/portfolio/photography11.jpg",
+   "originalSrc": "img/portfolio/photography11.jpg",
+   "title": "Photography Study #34",
+   "category": "Photography",
+   "classes": "col-md-3 grid-portfolio-item photography"
+  },
+  {
+   "id": "item-35",
+   "src": "/images/original/portfolio/media6.jpg",
+   "originalSrc": "img/portfolio/media6.jpg",
+   "title": "Media Study #35",
+   "category": "Media",
+   "classes": "col-md-3 grid-portfolio-item media"
+  },
+  {
+   "id": "item-36",
+   "src": "/images/original/portfolio/media7.jpg",
+   "originalSrc": "img/portfolio/media7.jpg",
+   "title": "Media Study #36",
+   "category": "Media",
+   "classes": "col-md-3 grid-portfolio-item media"
+  },
+  {
+   "id": "item-37",
+   "src": "/images/original/portfolio/photography12.jpg",
+   "originalSrc": "img/portfolio/photography12.jpg",
+   "title": "Photography Study #37",
+   "category": "Photography",
+   "classes": "col-md-3 grid-portfolio-item photography"
+  },
+  {
+   "id": "item-38",
+   "src": "/images/original/portfolio/media8.jpg",
+   "originalSrc": "img/portfolio/media8.jpg",
+   "title": "Media Study #38",
+   "category": "Media",
+   "classes": "col-md-3 grid-portfolio-item media"
+  },
+  {
+   "id": "item-39",
+   "src": "/images/original/portfolio/photography13.jpg",
+   "originalSrc": "img/portfolio/photography13.jpg",
+   "title": "Photography Study #39",
+   "category": "Photography",
+   "classes": "col-md-3 grid-portfolio-item photography"
+  },
+  {
+   "id": "item-40",
+   "src": "/images/original/portfolio/media9.jpg",
+   "originalSrc": "img/portfolio/media9.jpg",
+   "title": "Media Study #40",
+   "category": "Media",
+   "classes": "col-md-3 grid-portfolio-item media"
+  },
+  {
+   "id": "item-41",
+   "src": "/images/original/portfolio/photography14.jpg",
+   "originalSrc": "img/portfolio/photography14.jpg",
+   "title": "Photography Study #41",
+   "category": "Photography",
+   "classes": "col-md-3 grid-portfolio-item photography"
+  },
+  {
+   "id": "item-42",
+   "src": "/images/original/portfolio/media10.jpg",
+   "originalSrc": "img/portfolio/media10.jpg",
+   "title": "Media Study #42",
+   "category": "Media",
+   "classes": "col-md-3 grid-portfolio-item media"
+  },
+  {
+   "id": "item-43",
+   "src": "/images/original/portfolio/signature2.jpg",
+   "originalSrc": "img/portfolio/signature2.jpg",
+   "title": "Signature dishes Study #43",
+   "category": "Signature dishes",
+   "classes": "col-md-3 grid-portfolio-item signature"
+  },
+  {
+   "id": "item-44",
+   "src": "/images/original/portfolio/signature3.jpg",
+   "originalSrc": "img/portfolio/signature3.jpg",
+   "title": "Signature dishes Study #44",
+   "category": "Signature dishes",
+   "classes": "col-md-3 grid-portfolio-item signature"
+  },
+  {
+   "id": "item-45",
+   "src": "/images/original/portfolio/signature4.jpg",
+   "originalSrc": "img/portfolio/signature4.jpg",
+   "title": "Signature dishes Study #45",
+   "category": "Signature dishes",
+   "classes": "col-md-3 grid-portfolio-item signature"
+  },
+  {
+   "id": "item-46",
+   "src": "/images/original/portfolio/signature5.jpg",
+   "originalSrc": "img/portfolio/signature5.jpg",
+   "title": "Signature dishes Study #46",
+   "category": "Signature dishes",
+   "classes": "col-md-3 grid-portfolio-item signature"
+  },
+  {
+   "id": "item-47",
+   "src": "/images/original/portfolio/media11.jpg",
+   "originalSrc": "img/portfolio/media11.jpg",
+   "title": "Media Study #47",
+   "category": "Media",
+   "classes": "col-md-3 grid-portfolio-item media"
+  },
+  {
+   "id": "item-48",
+   "src": "/images/original/portfolio/media12.jpg",
+   "originalSrc": "img/portfolio/media12.jpg",
+   "title": "Media Study #48",
+   "category": "Media",
+   "classes": "col-md-3 grid-portfolio-item media"
+  },
+  {
+   "id": "item-49",
+   "src": "/images/original/portfolio/media13.jpg",
+   "originalSrc": "img/portfolio/media13.jpg",
+   "title": "Media Study #49",
+   "category": "Media",
+   "classes": "col-md-3 grid-portfolio-item media"
+  },
+  {
+   "id": "item-50",
+   "src": "/images/original/portfolio/media14.jpg",
+   "originalSrc": "img/portfolio/media14.jpg",
+   "title": "Media Study #50",
+   "category": "Media",
+   "classes": "col-md-3 grid-portfolio-item media"
+  },
+  {
+   "id": "item-51",
+   "src": "/images/original/portfolio/media15.jpg",
+   "originalSrc": "img/portfolio/media15.jpg",
+   "title": "Media Study #51",
+   "category": "Media",
+   "classes": "col-md-3 grid-portfolio-item media"
+  },
+  {
+   "id": "item-52",
+   "src": "/images/original/portfolio/media16.jpg",
+   "originalSrc": "img/portfolio/media16.jpg",
+   "title": "Media Study #52",
+   "category": "Media",
+   "classes": "col-md-3 grid-portfolio-item media"
+  },
+  {
+   "id": "item-53",
+   "src": "/images/original/portfolio/media17.jpg",
+   "originalSrc": "img/portfolio/media17.jpg",
+   "title": "Media Study #53",
+   "category": "Media",
+   "classes": "col-md-3 grid-portfolio-item media"
+  },
+  {
+   "id": "item-54",
+   "src": "/images/original/portfolio/media18.jpg",
+   "originalSrc": "img/portfolio/media18.jpg",
+   "title": "Media Study #54",
+   "category": "Media",
+   "classes": "col-md-3 grid-portfolio-item media"
+  },
+  {
+   "id": "item-55",
+   "src": "/images/original/portfolio/media19.jpg",
+   "originalSrc": "img/portfolio/media19.jpg",
+   "title": "Media Study #55",
+   "category": "Media",
+   "classes": "col-md-3 grid-portfolio-item media"
+  },
+  {
+   "id": "item-56",
+   "src": "/images/original/portfolio/signature6.jpg",
+   "originalSrc": "img/portfolio/signature6.jpg",
+   "title": "Signature dishes Study #56",
+   "category": "Signature dishes",
+   "classes": "col-md-3 grid-portfolio-item signature"
+  },
+  {
+   "id": "item-57",
+   "src": "/images/original/portfolio/signature7.jpg",
+   "originalSrc": "img/portfolio/signature7.jpg",
+   "title": "Signature dishes Study #57",
+   "category": "Signature dishes",
+   "classes": "col-md-3 grid-portfolio-item signature"
+  },
+  {
+   "id": "item-58",
+   "src": "/images/original/portfolio/signature8.jpg",
+   "originalSrc": "img/portfolio/signature8.jpg",
+   "title": "Signature dishes Study #58",
+   "category": "Signature dishes",
+   "classes": "col-md-3 grid-portfolio-item signature"
+  },
+  {
+   "id": "item-59",
+   "src": "/images/original/portfolio/signature14.jpg",
+   "originalSrc": "img/portfolio/signature14.jpg",
+   "title": "Signature dishes Study #59",
+   "category": "Signature dishes",
+   "classes": "col-md-3 grid-portfolio-item signature"
+  },
+  {
+   "id": "item-60",
+   "src": "/images/original/portfolio/signature15.jpg",
+   "originalSrc": "img/portfolio/signature15.jpg",
+   "title": "Signature dishes Study #60",
+   "category": "Signature dishes",
+   "classes": "col-md-3 grid-portfolio-item signature"
+  },
+  {
+   "id": "item-61",
+   "src": "/images/original/portfolio/media1.jpg",
+   "originalSrc": "img/portfolio/media1.jpg",
+   "title": "Media Study #61",
+   "category": "Media",
+   "classes": "col-md-3 grid-portfolio-item media"
+  },
+  {
+   "id": "item-62",
+   "src": "/images/original/portfolio/media20.jpg",
+   "originalSrc": "img/portfolio/media20.jpg",
+   "title": "Media Study #62",
+   "category": "Media",
+   "classes": "col-md-3 grid-portfolio-item media"
+  },
+  {
+   "id": "item-63",
+   "src": "/images/original/portfolio/media21.jpg",
+   "originalSrc": "img/portfolio/media21.jpg",
+   "title": "Media Study #63",
+   "category": "Media",
+   "classes": "col-md-3 grid-portfolio-item media"
+  },
+  {
+   "id": "item-64",
+   "src": "/images/original/portfolio/media22.jpg",
+   "originalSrc": "img/portfolio/media22.jpg",
+   "title": "Media Study #64",
+   "category": "Media",
+   "classes": "col-md-3 grid-portfolio-item media"
+  },
+  {
+   "id": "item-65",
+   "src": "/images/original/portfolio/food6.jpg",
+   "originalSrc": "img/portfolio/food6.jpg",
+   "title": "Food Study #65",
+   "category": "Food",
+   "classes": "col-md-3 grid-portfolio-item food"
+  },
+  {
+   "id": "item-66",
+   "src": "/images/original/portfolio/food7.jpg",
+   "originalSrc": "img/portfolio/food7.jpg",
+   "title": "Food Study #66",
+   "category": "Food",
+   "classes": "col-md-3 grid-portfolio-item food"
+  },
+  {
+   "id": "item-67",
+   "src": "/images/original/portfolio/food8.jpg",
+   "originalSrc": "img/portfolio/food8.jpg",
+   "title": "Food Study #67",
+   "category": "Food",
+   "classes": "col-md-3 grid-portfolio-item food"
+  },
+  {
+   "id": "item-68",
+   "src": "/images/original/portfolio/food9.jpg",
+   "originalSrc": "img/portfolio/food9.jpg",
+   "title": "Food Study #68",
+   "category": "Food",
+   "classes": "col-md-3 grid-portfolio-item food"
+  },
+  {
+   "id": "item-69",
+   "src": "/images/original/portfolio/food10.jpg",
+   "originalSrc": "img/portfolio/food10.jpg",
+   "title": "Food Study #69",
+   "category": "Food",
+   "classes": "col-md-3 grid-portfolio-item food"
+  },
+  {
+   "id": "item-70",
+   "src": "/images/original/portfolio/food11.jpg",
+   "originalSrc": "img/portfolio/food11.jpg",
+   "title": "Food Study #70",
+   "category": "Food",
+   "classes": "col-md-3 grid-portfolio-item food"
+  },
+  {
+   "id": "item-71",
+   "src": "/images/original/portfolio/media23.jpg",
+   "originalSrc": "img/portfolio/media23.jpg",
+   "title": "Media Study #71",
+   "category": "Media",
+   "classes": "col-md-3 grid-portfolio-item media"
+  },
+  {
+   "id": "item-72",
+   "src": "/images/original/portfolio/food.jpg",
+   "originalSrc": "img/portfolio/food.jpg",
+   "title": "Food Study #72",
+   "category": "Food",
+   "classes": "col-md-3 grid-portfolio-item food"
+  },
+  {
+   "id": "item-73",
+   "src": "/images/original/portfolio/food1.jpg",
+   "originalSrc": "img/portfolio/food1.jpg",
+   "title": "Food Study #73",
+   "category": "Food",
+   "classes": "col-md-3 grid-portfolio-item food"
+  },
+  {
+   "id": "item-74",
+   "src": "/images/original/portfolio/food2.jpg",
+   "originalSrc": "img/portfolio/food2.jpg",
+   "title": "Food Study #74",
+   "category": "Food",
+   "classes": "col-md-3 grid-portfolio-item food"
+  },
+  {
+   "id": "item-75",
+   "src": "/images/original/portfolio/food4.jpg",
+   "originalSrc": "img/portfolio/food4.jpg",
+   "title": "Food Study #75",
+   "category": "Food",
+   "classes": "col-md-3 grid-portfolio-item food"
+  },
+  {
+   "id": "item-76",
+   "src": "/images/original/portfolio/food5.jpg",
+   "originalSrc": "img/portfolio/food5.jpg",
+   "title": "Food Study #76",
+   "category": "Food",
+   "classes": "col-md-3 grid-portfolio-item food"
+  },
+  {
+   "id": "item-77",
+   "src": "/images/original/portfolio/food12.jpg",
+   "originalSrc": "img/portfolio/food12.jpg",
+   "title": "Food Study #77",
+   "category": "Food",
+   "classes": "col-md-3 grid-portfolio-item food"
+  },
+  {
+   "id": "item-78",
+   "src": "/images/original/portfolio/food13.jpg",
+   "originalSrc": "img/portfolio/food13.jpg",
+   "title": "Food Study #78",
+   "category": "Food",
+   "classes": "col-md-3 grid-portfolio-item food"
+  },
+  {
+   "id": "item-79",
+   "src": "/images/original/portfolio/food14.jpg",
+   "originalSrc": "img/portfolio/food14.jpg",
+   "title": "Food Study #79",
+   "category": "Food",
+   "classes": "col-md-3 grid-portfolio-item food"
+  },
+  {
+   "id": "item-80",
+   "src": "/images/original/portfolio/signature1.jpg",
+   "originalSrc": "img/portfolio/signature1.jpg",
+   "title": "Signature dishes Study #80",
+   "category": "Signature dishes",
+   "classes": "col-md-3 grid-portfolio-item signature"
+  },
+  {
+   "id": "item-81",
+   "src": "/images/original/portfolio/travel8.jpg",
+   "originalSrc": "img/portfolio/travel8.jpg",
+   "title": "Travel Study #81",
+   "category": "Travel",
+   "classes": "col-md-3 grid-portfolio-item travel"
+  },
+  {
+   "id": "item-82",
+   "src": "/images/original/portfolio/travel9.jpg",
+   "originalSrc": "img/portfolio/travel9.jpg",
+   "title": "Travel Study #82",
+   "category": "Travel",
+   "classes": "col-md-3 grid-portfolio-item travel"
+  },
+  {
+   "id": "item-83",
+   "src": "/images/original/portfolio/travel10.jpg",
+   "originalSrc": "img/portfolio/travel10.jpg",
+   "title": "Travel Study #83",
+   "category": "Travel",
+   "classes": "col-md-3 grid-portfolio-item travel"
+  },
+  {
+   "id": "item-84",
+   "src": "/images/original/portfolio/travel11.jpg",
+   "originalSrc": "img/portfolio/travel11.jpg",
+   "title": "Travel Study #84",
+   "category": "Travel",
+   "classes": "col-md-3 grid-portfolio-item travel"
+  },
+  {
+   "id": "item-85",
+   "src": "/images/original/portfolio/travel12.jpg",
+   "originalSrc": "img/portfolio/travel12.jpg",
+   "title": "Travel Study #85",
+   "category": "Travel",
+   "classes": "col-md-3 grid-portfolio-item travel"
+  },
+  {
+   "id": "item-86",
+   "src": "/images/original/portfolio/travel13.jpg",
+   "originalSrc": "img/portfolio/travel13.jpg",
+   "title": "Travel Study #86",
+   "category": "Travel",
+   "classes": "col-md-3 grid-portfolio-item travel"
+  },
+  {
+   "id": "item-87",
+   "src": "/images/original/portfolio/travel14.jpg",
+   "originalSrc": "img/portfolio/travel14.jpg",
+   "title": "Travel Study #87",
+   "category": "Travel",
+   "classes": "col-md-3 grid-portfolio-item travel"
+  },
+  {
+   "id": "item-88",
+   "src": "/images/original/portfolio/travel16.jpg",
+   "originalSrc": "img/portfolio/travel16.jpg",
+   "title": "Travel Study #88",
+   "category": "Travel",
+   "classes": "col-md-3 grid-portfolio-item travel"
+  },
+  {
+   "id": "item-89",
+   "src": "/images/original/portfolio/travel17.jpg",
+   "originalSrc": "img/portfolio/travel17.jpg",
+   "title": "Travel Study #89",
+   "category": "Travel",
+   "classes": "col-md-3 grid-portfolio-item travel"
+  },
+  {
+   "id": "item-90",
+   "src": "/images/original/portfolio/travel18.jpg",
+   "originalSrc": "img/portfolio/travel18.jpg",
+   "title": "Travel Study #90",
+   "category": "Travel",
+   "classes": "col-md-3 grid-portfolio-item travel"
+  },
+  {
+   "id": "item-91",
+   "src": "/images/original/portfolio/travel19.jpg",
+   "originalSrc": "img/portfolio/travel19.jpg",
+   "title": "Travel Study #91",
+   "category": "Travel",
+   "classes": "col-md-3 grid-portfolio-item travel"
+  },
+  {
+   "id": "item-92",
+   "src": "/images/original/portfolio/travel20.jpg",
+   "originalSrc": "img/portfolio/travel20.jpg",
+   "title": "Travel Study #92",
+   "category": "Travel",
+   "classes": "col-md-3 grid-portfolio-item travel"
+  },
+  {
+   "id": "item-93",
+   "src": "/images/original/portfolio/travel21.jpg",
+   "originalSrc": "img/portfolio/travel21.jpg",
+   "title": "Travel Study #93",
+   "category": "Travel",
+   "classes": "col-md-3 grid-portfolio-item travel"
+  },
+  {
+   "id": "item-94",
+   "src": "/images/original/portfolio/travel22.jpg",
+   "originalSrc": "img/portfolio/travel22.jpg",
+   "title": "Travel Study #94",
+   "category": "Travel",
+   "classes": "col-md-3 grid-portfolio-item travel"
+  },
+  {
+   "id": "item-95",
+   "src": "/images/original/portfolio/travel23.jpg",
+   "originalSrc": "img/portfolio/travel23.jpg",
+   "title": "Travel Study #95",
+   "category": "Travel",
+   "classes": "col-md-3 grid-portfolio-item travel"
+  },
+  {
+   "id": "item-96",
+   "src": "/images/original/portfolio/travel24.jpg",
+   "originalSrc": "img/portfolio/travel24.jpg",
+   "title": "Travel Study #96",
+   "category": "Travel",
+   "classes": "col-md-3 grid-portfolio-item travel"
+  },
+  {
+   "id": "item-97",
+   "src": "/images/original/portfolio/photography1.jpg",
+   "originalSrc": "img/portfolio/photography1.jpg",
+   "title": "Photography Study #97",
+   "category": "Photography",
+   "classes": "col-md-3 grid-portfolio-item photography"
+  },
+  {
+   "id": "item-98",
+   "src": "/images/original/other/site-logo.png",
+   "originalSrc": "img/logos/site-logo.png",
+   "title": "General Study #98",
+   "category": "General",
+   "classes": "col-md-12"
+  }
+ ]
+}

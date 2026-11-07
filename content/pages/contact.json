@@ -1,0 +1,27 @@
+{
+ "heading": "LET'S START A CONVERSATION",
+ "subheading": "Available for executive culinary consultations, restaurant concept development, luxury hospitality collaborations, and culinary advisory.",
+ "contactDetails": {
+  "name": "Chef Anand Kumar",
+  "title": "Executive Chef & Hospitality Consultant",
+  "phone": "+91 9703712340",
+  "phoneNote": "Business days only",
+  "email": "anand_hotel@yahoo.com",
+  "emailNote": "Up to 72 hours respond",
+  "address": {
+   "building": "Prime Legend, Flat-814, Block-B",
+   "street": "Kondapur, Masjid Banda, Next to MG Car Showroom",
+   "city": "Hyderabad",
+   "state": "Telangana",
+   "postalCode": "500084",
+   "country": "India"
+  }
+ },
+ "enquiryTypes": [
+  "General Enquiries",
+  "Restaurant & Hospitality Consulting",
+  "Culinary Collaborations & Pop-ups",
+  "Kitchen & Menu Design",
+  "Media & Speaking Engagements"
+ ]
+}

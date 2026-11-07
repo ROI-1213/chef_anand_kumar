@@ -1,0 +1,21 @@
+{
+ "heading": "RECIPES & CULINARY STORIES",
+ "mainStatement": "PUBLISHING SOON",
+ "supportingStatement": "A curated collection of signature recipes, masterclass techniques, and culinary reflections is on its way.",
+ "featuredImage": "/images/original/fullwidth/model3.jpg",
+ "schemaPreview": {
+  "fields": [
+   "title",
+   "slug",
+   "featuredImage",
+   "description",
+   "ingredients",
+   "method",
+   "prepTime",
+   "cookTime",
+   "servings",
+   "cuisine",
+   "category"
+  ]
+ }
+}
