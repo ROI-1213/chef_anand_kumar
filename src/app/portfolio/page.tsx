@@ -16,8 +16,7 @@ export default function PortfolioPage() {
         {/* Subtle background glow */}
         <div className="absolute top-1/4 left-1/3 w-[600px] h-[600px] bg-gold/5 blur-[160px] rounded-full pointer-events-none" />
 
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 space-y-12">
-          
+        <div className="max-w-[1620px] mx-auto px-4 sm:px-6 lg:px-10 relative z-10 space-y-12">
           {/* Header */}
           <div className="text-center max-w-3xl mx-auto space-y-4">
             <div className="inline-flex items-center gap-3">
@@ -39,7 +38,6 @@ export default function PortfolioPage() {
 
           {/* Interactive Filterable Gallery */}
           <PortfolioGallery />
-
         </div>
       </section>
 

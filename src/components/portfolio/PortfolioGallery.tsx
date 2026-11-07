@@ -3,18 +3,24 @@
 import { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { Eye, X, ChevronLeft, ChevronRight, Filter } from "lucide-react";
-import { portfolioData, PortfolioItem } from "@/lib/content";
+import { X, ChevronLeft, ChevronRight, Filter } from "lucide-react";
+import { portfolioData } from "@/lib/content";
 
 export default function PortfolioGallery() {
   const { categories, items } = portfolioData;
   const [activeCategory, setActiveCategory] = useState<string>("All");
   const [selectedItemIndex, setSelectedItemIndex] = useState<number | null>(null);
 
-  // Filter items based on active category
-  const filteredItems = activeCategory === "All"
-    ? items
-    : items.filter((item) => item.category.toLowerCase() === activeCategory.toLowerCase());
+  // Filter items based on active category and ensure unique image URLs
+  const filteredItems = (
+    activeCategory === "All"
+      ? items
+      : items.filter(
+          (item) => item.category.toLowerCase() === activeCategory.toLowerCase()
+        )
+  ).filter(
+    (item, idx, arr) => arr.findIndex((other) => other.src === item.src) === idx
+  );
 
   // Lightbox navigation
   const openLightbox = (index: number) => {
@@ -33,7 +39,9 @@ export default function PortfolioGallery() {
 
   const showPrev = useCallback(() => {
     if (selectedItemIndex !== null) {
-      setSelectedItemIndex((prev) => (prev! - 1 + filteredItems.length) % filteredItems.length);
+      setSelectedItemIndex(
+        (prev) => (prev! - 1 + filteredItems.length) % filteredItems.length
+      );
     }
   }, [selectedItemIndex, filteredItems.length]);
 
@@ -49,15 +57,18 @@ export default function PortfolioGallery() {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [selectedItemIndex, showNext, showPrev]);
 
-  const currentLightboxItem = selectedItemIndex !== null ? filteredItems[selectedItemIndex] : null;
+  const currentLightboxItem =
+    selectedItemIndex !== null ? filteredItems[selectedItemIndex] : null;
 
   return (
     <div className="space-y-12">
       {/* Category Filter Navigation */}
-      <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 py-4 border-b border-white/10">
-        <div className="flex items-center gap-2 text-gold mr-2 hidden sm:flex">
+      <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-3 py-4">
+        <div className="items-center gap-2 text-gold mr-2 hidden sm:flex">
           <Filter className="w-3.5 h-3.5" />
-          <span className="font-sans text-[11px] uppercase tracking-mega">Categories:</span>
+          <span className="font-sans text-[11px] uppercase tracking-mega">
+            Categories:
+          </span>
         </div>
         {categories.map((cat) => {
           const isActive = activeCategory.toLowerCase() === cat.toLowerCase();
@@ -68,10 +79,10 @@ export default function PortfolioGallery() {
                 setActiveCategory(cat);
                 setSelectedItemIndex(null);
               }}
-              className={`px-4 sm:px-5 py-2 rounded-full font-sans text-xs uppercase tracking-widest transition-all duration-300 ${
+              className={`px-5 sm:px-6 py-2.5 rounded-full font-sans text-xs uppercase tracking-widest transition-all duration-300 cursor-pointer ${
                 isActive
                   ? "bg-gold text-obsidian font-semibold shadow-md shadow-gold/20"
-                  : "bg-white/5 text-ivory/70 hover:text-ivory hover:bg-white/10 border border-white/5"
+                  : "bg-white/5 text-ivory/70 hover:text-ivory hover:bg-white/10"
               }`}
             >
               {cat}
@@ -80,55 +91,36 @@ export default function PortfolioGallery() {
         })}
       </div>
 
-      {/* Gallery Grid */}
+      {/* Large Borderless Gallery Grid (Only Images, No Food Names, No Borders) */}
       <motion.div
         layout
-        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6"
+        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8"
       >
         <AnimatePresence>
           {filteredItems.map((item, idx) => (
             <motion.div
               layout
-              initial={{ opacity: 0, scale: 0.9 }}
+              initial={{ opacity: 0, scale: 0.94 }}
               animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 0.9 }}
-              transition={{ duration: 0.4, delay: (idx % 8) * 0.04 }}
+              exit={{ opacity: 0, scale: 0.94 }}
+              transition={{ duration: 0.4, delay: (idx % 6) * 0.04 }}
               key={item.id}
-              className="relative aspect-square sm:aspect-[4/3] rounded-xl overflow-hidden group cursor-pointer border border-white/10 shadow-lg bg-obsidian-100"
+              className="relative h-[380px] sm:h-[430px] lg:h-[470px] rounded-[22px] overflow-hidden group cursor-pointer shadow-2xl bg-obsidian-100"
               onClick={() => openLightbox(idx)}
             >
               <Image
                 src={item.src}
-                alt={item.title}
+                alt="Chef Anand Kumar Culinary Creation"
                 fill
-                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className="object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
               />
-
-              <div className="absolute inset-0 bg-gradient-to-t from-obsidian/90 via-obsidian/20 to-transparent opacity-40 group-hover:opacity-80 transition-opacity duration-300" />
-
-              <div className="absolute inset-2 border border-transparent group-hover:border-gold/40 rounded-lg transition-colors duration-500 pointer-events-none" />
-
-              {/* Content Overlay */}
-              <div className="absolute bottom-3 left-3 right-3 flex items-end justify-between">
-                <div>
-                  <span className="font-sans text-[10px] tracking-widest uppercase text-gold block font-semibold">
-                    {item.category}
-                  </span>
-                  <p className="font-serif text-sm text-ivory-light font-light line-clamp-1">
-                    {item.title}
-                  </p>
-                </div>
-                <div className="w-7 h-7 rounded-full bg-gold/20 flex items-center justify-center text-gold group-hover:bg-gold group-hover:text-obsidian transition-colors">
-                  <Eye className="w-3.5 h-3.5" />
-                </div>
-              </div>
             </motion.div>
           ))}
         </AnimatePresence>
       </motion.div>
 
-      {/* Full-Screen Lightbox Modal */}
+      {/* Full-Screen Lightbox Modal (Pure Image Only, No Border, No Food Name) */}
       <AnimatePresence>
         {currentLightboxItem && (
           <motion.div
@@ -141,7 +133,7 @@ export default function PortfolioGallery() {
             {/* Top Close Button */}
             <button
               onClick={closeLightbox}
-              className="absolute top-6 right-6 p-3 rounded-full border border-white/20 text-ivory hover:text-gold hover:border-gold transition-colors z-50 focus:outline-none"
+              className="absolute top-6 right-6 p-3 rounded-full bg-white/10 text-ivory hover:text-gold transition-colors z-50 focus:outline-none cursor-pointer"
               aria-label="Close lightbox"
             >
               <X className="w-6 h-6" />
@@ -153,7 +145,7 @@ export default function PortfolioGallery() {
                 e.stopPropagation();
                 showPrev();
               }}
-              className="absolute left-4 sm:left-8 top-1/2 -translate-y-1/2 p-3 rounded-full border border-white/20 text-ivory hover:text-gold hover:border-gold bg-obsidian/50 transition-colors z-50"
+              className="absolute left-4 sm:left-8 top-1/2 -translate-y-1/2 p-3 rounded-full bg-white/10 text-ivory hover:text-gold transition-colors z-50 cursor-pointer"
               aria-label="Previous image"
             >
               <ChevronLeft className="w-6 h-6" />
@@ -165,7 +157,7 @@ export default function PortfolioGallery() {
                 e.stopPropagation();
                 showNext();
               }}
-              className="absolute right-4 sm:right-8 top-1/2 -translate-y-1/2 p-3 rounded-full border border-white/20 text-ivory hover:text-gold hover:border-gold bg-obsidian/50 transition-colors z-50"
+              className="absolute right-4 sm:right-8 top-1/2 -translate-y-1/2 p-3 rounded-full bg-white/10 text-ivory hover:text-gold transition-colors z-50 cursor-pointer"
               aria-label="Next image"
             >
               <ChevronRight className="w-6 h-6" />
@@ -173,28 +165,18 @@ export default function PortfolioGallery() {
 
             {/* Main Modal Image Container */}
             <div
-              className="relative max-w-5xl w-full max-h-[85vh] flex flex-col items-center justify-center"
+              className="relative max-w-6xl w-full max-h-[88vh] flex items-center justify-center"
               onClick={(e) => e.stopPropagation()}
             >
-              <div className="relative w-full h-[65vh] sm:h-[72vh] rounded-xl overflow-hidden border border-white/10 shadow-2xl">
+              <div className="relative w-full h-[75vh] sm:h-[82vh] rounded-[22px] overflow-hidden shadow-2xl">
                 <Image
                   src={currentLightboxItem.src}
-                  alt={currentLightboxItem.title}
+                  alt="Chef Anand Kumar Culinary Creation"
                   fill
                   className="object-contain"
                   sizes="100vw"
                   priority
                 />
-              </div>
-
-              {/* Caption & Category */}
-              <div className="mt-4 text-center space-y-1">
-                <span className="font-sans text-xs tracking-mega uppercase text-gold font-medium block">
-                  {currentLightboxItem.category} &bull; Image {selectedItemIndex! + 1} of {filteredItems.length}
-                </span>
-                <p className="font-serif text-xl sm:text-2xl text-ivory-light font-light">
-                  {currentLightboxItem.title}
-                </p>
               </div>
             </div>
           </motion.div>

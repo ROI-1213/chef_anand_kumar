@@ -117,8 +117,8 @@ export default function LatestWork() {
                 data-cursor="VIEW"
                 className={`absolute w-[290px] sm:w-[390px] lg:w-[435px] h-[365px] sm:h-[435px] lg:h-[465px] rounded-[22px] overflow-hidden cursor-pointer bg-white transition-shadow duration-500 ${
                   isCenter
-                    ? "shadow-[0_28px_65px_rgba(0,0,0,0.22)] ring-2 ring-[#DCA54C]/80"
-                    : "shadow-[0_16px_40px_rgba(0,0,0,0.14)] ring-1 ring-black/10"
+                    ? "shadow-[0_28px_65px_rgba(0,0,0,0.22)]"
+                    : "shadow-[0_16px_40px_rgba(0,0,0,0.14)]"
                 }`}
               >
                 <Image

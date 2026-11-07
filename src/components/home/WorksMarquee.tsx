@@ -74,6 +74,21 @@ export const WORKS_IMAGES: WorkItem[] = [
     src: "/images/works-marquee/work-13.jpg",
     alt: "Artisanal chocolate pill bonbon collection — Joy Pill, Chill Pill, Go Pill, Love Pill, Luck Pill",
   },
+  {
+    id: "work-14",
+    src: "/images/works-marquee/work-14.jpg",
+    alt: "Signature fine-dining presentation by Executive Chef Anand Kumar",
+  },
+  {
+    id: "work-15",
+    src: "/images/works-marquee/work-15.jpg",
+    alt: "Contemporary plated gastronomy by Executive Chef Anand Kumar",
+  },
+  {
+    id: "work-16",
+    src: "/images/works-marquee/work-16.jpg",
+    alt: "Artisanal culinary creation by Executive Chef Anand Kumar",
+  },
 ];
 
 interface ColumnCardConfig {
@@ -81,6 +96,7 @@ interface ColumnCardConfig {
   heightClass: string;
 }
 
+// 16 completely unique images (indices 0..15) across the 4 columns (zero duplicate images across columns)
 const COLUMNS_CONFIG: {
   id: string;
   direction: "up" | "down";
@@ -92,10 +108,10 @@ const COLUMNS_CONFIG: {
     direction: "up",
     duration: "44s",
     cards: [
-      { imgIndex: 0, heightClass: "h-[300px] sm:h-[350px] lg:h-[380px]" },
-      { imgIndex: 4, heightClass: "h-[320px] sm:h-[370px] lg:h-[400px]" },
-      { imgIndex: 8, heightClass: "h-[300px] sm:h-[350px] lg:h-[380px]" },
-      { imgIndex: 12, heightClass: "h-[320px] sm:h-[370px] lg:h-[400px]" },
+      { imgIndex: 0, heightClass: "h-[380px] sm:h-[440px] lg:h-[480px]" },
+      { imgIndex: 4, heightClass: "h-[400px] sm:h-[460px] lg:h-[510px]" },
+      { imgIndex: 8, heightClass: "h-[380px] sm:h-[440px] lg:h-[480px]" },
+      { imgIndex: 12, heightClass: "h-[400px] sm:h-[460px] lg:h-[510px]" },
     ],
   },
   {
@@ -103,10 +119,10 @@ const COLUMNS_CONFIG: {
     direction: "down",
     duration: "48s",
     cards: [
-      { imgIndex: 1, heightClass: "h-[380px] sm:h-[440px] lg:h-[480px]" },
-      { imgIndex: 5, heightClass: "h-[320px] sm:h-[370px] lg:h-[400px]" },
-      { imgIndex: 9, heightClass: "h-[380px] sm:h-[440px] lg:h-[480px]" },
-      { imgIndex: 2, heightClass: "h-[320px] sm:h-[370px] lg:h-[400px]" },
+      { imgIndex: 1, heightClass: "h-[420px] sm:h-[480px] lg:h-[530px]" },
+      { imgIndex: 5, heightClass: "h-[380px] sm:h-[440px] lg:h-[480px]" },
+      { imgIndex: 9, heightClass: "h-[420px] sm:h-[480px] lg:h-[530px]" },
+      { imgIndex: 13, heightClass: "h-[380px] sm:h-[440px] lg:h-[480px]" },
     ],
   },
   {
@@ -114,10 +130,10 @@ const COLUMNS_CONFIG: {
     direction: "up",
     duration: "46s",
     cards: [
+      { imgIndex: 2, heightClass: "h-[420px] sm:h-[480px] lg:h-[530px]" },
       { imgIndex: 6, heightClass: "h-[380px] sm:h-[440px] lg:h-[480px]" },
-      { imgIndex: 10, heightClass: "h-[320px] sm:h-[370px] lg:h-[400px]" },
-      { imgIndex: 3, heightClass: "h-[380px] sm:h-[440px] lg:h-[480px]" },
-      { imgIndex: 11, heightClass: "h-[320px] sm:h-[370px] lg:h-[400px]" },
+      { imgIndex: 10, heightClass: "h-[420px] sm:h-[480px] lg:h-[530px]" },
+      { imgIndex: 14, heightClass: "h-[380px] sm:h-[440px] lg:h-[480px]" },
     ],
   },
   {
@@ -125,10 +141,10 @@ const COLUMNS_CONFIG: {
     direction: "down",
     duration: "45s",
     cards: [
-      { imgIndex: 7, heightClass: "h-[360px] sm:h-[410px] lg:h-[440px]" },
-      { imgIndex: 12, heightClass: "h-[290px] sm:h-[330px] lg:h-[360px]" },
-      { imgIndex: 8, heightClass: "h-[360px] sm:h-[410px] lg:h-[440px]" },
-      { imgIndex: 9, heightClass: "h-[290px] sm:h-[330px] lg:h-[360px]" },
+      { imgIndex: 3, heightClass: "h-[400px] sm:h-[460px] lg:h-[510px]" },
+      { imgIndex: 7, heightClass: "h-[370px] sm:h-[430px] lg:h-[470px]" },
+      { imgIndex: 11, heightClass: "h-[400px] sm:h-[460px] lg:h-[510px]" },
+      { imgIndex: 15, heightClass: "h-[370px] sm:h-[430px] lg:h-[470px]" },
     ],
   },
 ];
@@ -141,13 +157,13 @@ export default function WorksMarquee() {
       className="relative w-full bg-white pt-12 sm:pt-16 pb-16 sm:pb-20 overflow-hidden select-none"
       aria-label="Works Gallery Showcase"
     >
-      {/* Full-Width Two-Tone Background Split (No Blank Side Margins) */}
+      {/* Full-Width Two-Tone Background Split */}
       <div className="absolute inset-0 pointer-events-none z-0 flex flex-col">
         <div className="h-[64%] w-full bg-white" />
         <div className="h-[36%] w-full bg-[#F2F2F2]" />
       </div>
 
-      <div className="relative z-10 w-full max-w-[1680px] mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative z-10 w-full max-w-[1740px] mx-auto px-3 sm:px-5 lg:px-7">
         {/* Centered Heading in Exact Uppercase + Gold Underline Format (Matching LATEST WORK) */}
         <div className="mb-10 sm:mb-14 flex flex-col items-center justify-center">
           <h2 className="text-center font-sans text-2xl sm:text-3xl lg:text-4xl font-semibold text-[#141414] uppercase tracking-[0.22em]">
@@ -156,8 +172,8 @@ export default function WorksMarquee() {
           <div className="h-[3px] w-24 sm:w-28 bg-[#DCA54C] mt-3 rounded-full" />
         </div>
 
-        {/* Full-Width 4-Column Continuous Up & Down Sliding Grid */}
-        <div className="relative w-full h-[640px] sm:h-[760px] lg:h-[840px] overflow-hidden rounded-[20px]">
+        {/* Full-Width 4-Column Continuous Up & Down Sliding Grid (Large Borderless Cards, 16 Unique Images) */}
+        <div className="relative w-full h-[720px] sm:h-[840px] lg:h-[940px] overflow-hidden rounded-[22px]">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6 lg:gap-7 h-full w-full">
             {COLUMNS_CONFIG.map((col) => (
               <div
@@ -172,7 +188,6 @@ export default function WorksMarquee() {
                       : "animate-works-col-down"
                   } hover:[animation-play-state:paused]`}
                 >
-                  {/* Render two identical vertical sets for seamless 0% <-> -50% infinite loop */}
                   {[0, 1].map((setIdx) => (
                     <div
                       key={`${col.id}-set-${setIdx}`}
@@ -183,7 +198,7 @@ export default function WorksMarquee() {
                         return (
                           <div
                             key={`${col.id}-${setIdx}-${cardIdx}`}
-                            className={`relative w-full ${card.heightClass} rounded-[16px] sm:rounded-[20px] overflow-hidden shadow-[0_14px_34px_rgba(0,0,0,0.1)] bg-neutral-100 group shrink-0`}
+                            className={`relative w-full ${card.heightClass} rounded-[20px] sm:rounded-[24px] overflow-hidden shadow-[0_14px_34px_rgba(0,0,0,0.12)] bg-neutral-100 group shrink-0`}
                           >
                             <Image
                               src={item.src}
