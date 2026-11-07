@@ -1,15 +1,15 @@
 {
   "name": "chefanandkumar",
   "version": "1.0.0",
-  "description": "",
+  "description": "Official Website of Executive Chef Anand Kumar",
   "main": "index.js",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
-    "dev": "next dev",
+    "dev": "node scripts/start-server.mjs dev",
     "build": "next build",
-    "start": "next start",
+    "start": "node scripts/start-server.mjs start",
     "lint": "next lint"
   },
   "keywords": [],
