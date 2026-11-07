@@ -1,5 +1,4 @@
-import { ArrowUpRight, BookOpen, ExternalLink } from "lucide-react";
-import ContactCTA from "@/components/home/ContactCTA";
+import { ArrowUpRight } from "lucide-react";
 import MagneticButton from "@/components/motion/MagneticButton";
 import { constructMetadata } from "@/lib/seo";
 
@@ -56,8 +55,6 @@ export default function BlogHubPage() {
 
         </div>
       </section>
-
-      <ContactCTA />
     </>
   );
 }

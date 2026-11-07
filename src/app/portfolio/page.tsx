@@ -1,5 +1,4 @@
 import PortfolioGallery from "@/components/portfolio/PortfolioGallery";
-import ContactCTA from "@/components/home/ContactCTA";
 import { constructMetadata } from "@/lib/seo";
 import { portfolioContent } from "@/lib/content";
 
@@ -40,8 +39,6 @@ export default function PortfolioPage() {
           <PortfolioGallery />
         </div>
       </section>
-
-      <ContactCTA />
     </>
   );
 }

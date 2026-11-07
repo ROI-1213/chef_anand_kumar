@@ -1,5 +1,4 @@
 import VideoArchiveGrid from "@/components/video/VideoArchiveGrid";
-import ContactCTA from "@/components/home/ContactCTA";
 import { constructMetadata } from "@/lib/seo";
 
 export const metadata = constructMetadata({
@@ -41,8 +40,6 @@ export default function VideoArchivePage() {
 
         </div>
       </section>
-
-      <ContactCTA />
     </>
   );
 }

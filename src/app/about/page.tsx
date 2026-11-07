@@ -2,7 +2,6 @@ import Image from "next/image";
 import Biography from "@/components/about/Biography";
 import CareerTimeline from "@/components/about/CareerTimeline";
 import Philosophy from "@/components/about/Philosophy";
-import ContactCTA from "@/components/home/ContactCTA";
 import { constructMetadata } from "@/lib/seo";
 import { aboutContent } from "@/lib/content";
 
@@ -80,9 +79,6 @@ export default function AboutPage() {
 
       {/* Leadership Philosophy & Work Style */}
       <Philosophy />
-
-      {/* Contact CTA */}
-      <ContactCTA />
     </>
   );
 }
