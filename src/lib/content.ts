@@ -9,6 +9,7 @@ import servicesDataJson from "../../content/services.json";
 import careerDataJson from "../../content/career.json";
 import portfolioDataJson from "../../content/portfolio.json";
 import videosDataJson from "../../content/videos.json";
+import blogDataJson from "../../content/blog.json";
 import assetManifestJson from "../../content/asset-manifest.json";
 
 export interface ServiceItem {
@@ -44,6 +45,19 @@ export interface VideoItem {
   order: number;
 }
 
+export interface BlogArticleItem {
+  id: string;
+  postId: number;
+  slug: string;
+  title: string;
+  date: string;
+  category: string;
+  featuredImage: string;
+  gallery: string[];
+  excerpt: string;
+  paragraphs: string[];
+}
+
 export const siteContent = siteContentData;
 export const homeContent = homeData;
 export const aboutContent = aboutData;
@@ -55,4 +69,5 @@ export const servicesData: ServiceItem[] = servicesDataJson;
 export const careerData: CareerMilestone[] = careerDataJson;
 export const portfolioData: { categories: string[]; items: PortfolioItem[] } = portfolioDataJson;
 export const videosData: VideoItem[] = videosDataJson;
+export const blogData: BlogArticleItem[] = blogDataJson;
 export const assetManifest = assetManifestJson;

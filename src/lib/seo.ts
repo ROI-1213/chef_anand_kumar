@@ -100,7 +100,7 @@ export function generatePersonSchema() {
     telephone: "+91 9703712340",
     email: "anand_hotel@yahoo.com",
     sameAs: [
-      "https://blog.chefanandkumar.com/",
+      `${SITE_URL}/blog`,
     ],
   };
 }

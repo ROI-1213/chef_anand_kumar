@@ -1,60 +1,44 @@
-import { ArrowUpRight } from "lucide-react";
-import MagneticButton from "@/components/motion/MagneticButton";
+import BlogGallery from "@/components/blog/BlogGallery";
 import { constructMetadata } from "@/lib/seo";
 
 export const metadata = constructMetadata({
-  title: "Culinary Blog | Executive Chef Anand Kumar",
-  description: "Read the latest culinary articles, recipes, and hospitality reflections from Chef Anand Kumar on blog.chefanandkumar.com.",
+  title: "Personal Blog & Culinary Chronicles | Executive Chef Anand Kumar",
+  description:
+    "Read the official personal blog, travel chronicles, and culinary stories of Executive Chef Anand Kumar.",
   path: "/blog",
 });
 
 export default function BlogHubPage() {
   return (
-    <>
-      <section className="pt-32 pb-24 bg-obsidian text-ivory relative min-h-[75vh] flex items-center overflow-hidden">
-        {/* Glow */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gold/5 blur-[160px] rounded-full pointer-events-none" />
+    <section className="pt-32 pb-24 bg-obsidian text-ivory relative min-h-screen overflow-hidden">
+      {/* Subtle Ambient Gold Glow */}
+      <div className="absolute top-1/4 left-1/2 -translate-x-1/2 w-[650px] h-[650px] bg-gold/5 blur-[180px] rounded-full pointer-events-none" />
 
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center space-y-8">
-          
+      <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-10 relative z-10 space-y-14">
+        {/* Header */}
+        <div className="text-center max-w-3xl mx-auto space-y-4">
           <div className="inline-flex items-center gap-3">
-            <span className="w-8 h-[1px] bg-gold" />
-            <span className="font-sans text-xs tracking-mega text-gold uppercase font-medium">
-              Editorial Publications
+            <span className="w-8 h-[1px] bg-[#DCA54C]" />
+            <span className="font-sans text-xs tracking-[0.24em] text-[#DCA54C] uppercase font-semibold">
+              CULINARY &amp; TRAVEL CHRONICLES
             </span>
-            <span className="w-8 h-[1px] bg-gold" />
+            <span className="w-8 h-[1px] bg-[#DCA54C]" />
           </div>
 
-          <h1 className="font-serif text-4xl sm:text-6xl md:text-7xl text-ivory-light uppercase tracking-tight font-light">
-            Chef Anand Kumar <br />
-            <span className="italic text-gold font-normal">Official Blog</span>
+          <h1 className="font-sans text-3xl sm:text-5xl md:text-6xl font-semibold text-white uppercase tracking-[0.18em]">
+            PERSONAL BLOG
           </h1>
 
-          <p className="font-sans text-base sm:text-lg text-ivory/70 max-w-xl mx-auto font-light leading-relaxed">
-            Discover culinary insights, cooking techniques, and gastronomic essays published directly on Chef Anand Kumar&apos;s editorial publication platform.
+          <div className="h-[3px] w-24 sm:w-28 bg-[#DCA54C] mx-auto rounded-full" />
+
+          <p className="font-sans text-sm sm:text-base text-ivory/75 max-w-2xl mx-auto font-light leading-relaxed pt-2">
+            Reflections on global gastronomy, luxury hospitality journeys, cultural traditions, and signature dining experiences by Executive Chef Anand Kumar.
           </p>
-
-          <div className="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <MagneticButton
-              href="https://blog.chefanandkumar.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <span className="inline-flex items-center gap-3 px-8 py-4 bg-gold text-obsidian rounded-full font-sans text-xs sm:text-sm font-semibold tracking-widest uppercase hover:bg-gold-light transition-all shadow-xl shadow-gold/10">
-                <span>Visit blog.chefanandkumar.com</span>
-                <ArrowUpRight className="w-4 h-4" />
-              </span>
-            </MagneticButton>
-
-            <MagneticButton href="/portfolio">
-              <span className="inline-flex items-center gap-2 px-6 py-4 border border-white/20 text-ivory-light rounded-full font-sans text-xs sm:text-sm font-medium tracking-widest uppercase hover:border-gold hover:text-gold transition-all">
-                <span>Browse Portfolio</span>
-              </span>
-            </MagneticButton>
-          </div>
-
         </div>
-      </section>
-    </>
+
+        {/* Native Interactive Blog Posts Grid */}
+        <BlogGallery />
+      </div>
+    </section>
   );
 }

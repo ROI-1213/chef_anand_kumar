@@ -110,9 +110,7 @@ export default function Intro() {
               <SectionReveal direction="up" delay={0.35}>
                 <div className="pt-1">
                   <Link
-                    href="https://blog.chefanandkumar.com/"
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    href="/blog"
                     data-cursor="BLOG"
                     className="group inline-flex items-stretch rounded-xl border-[1.5px] border-[#DCA54C] bg-[#0B0B0A] overflow-hidden shadow-[0_6px_25px_rgba(220,165,76,0.18)] hover:shadow-[0_8px_35px_rgba(220,165,76,0.38)] transition-all duration-300"
                   >
