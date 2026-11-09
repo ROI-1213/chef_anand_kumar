@@ -112,6 +112,8 @@ export default function PortfolioGallery() {
                 src={item.src}
                 alt="Chef Anand Kumar Culinary Creation"
                 fill
+                unoptimized
+                loading={idx < 6 ? "eager" : "lazy"}
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className="object-cover group-hover:scale-105 transition-transform duration-500 ease-out"
               />

@@ -23,11 +23,24 @@ export default function Hero() {
   }, []);
 
   useEffect(() => {
+    // Preload Hero Slides 2 & 3 right after initial paint so banner transitions are instant
+    const preloadTimer = setTimeout(() => {
+      ["/images/hero-slider/hero-hd-2.jpg", "/images/hero-slider/hero-hd-3.jpg"].forEach(
+        (src) => {
+          const img = new window.Image();
+          img.src = src;
+        }
+      );
+    }, 300);
+
     const timer = setInterval(() => {
       setHasTransitioned(true);
       setActiveSlide((prev) => (prev + 1) % 3);
     }, 4500);
-    return () => clearInterval(timer);
+    return () => {
+      clearTimeout(preloadTimer);
+      clearInterval(timer);
+    };
   }, []);
 
   // Determine exact opposite-direction horizontal slide vectors per banner:

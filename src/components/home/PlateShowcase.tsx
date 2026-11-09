@@ -72,8 +72,7 @@ export default function PlateShowcase() {
             src="/images/plate-slider/slide-v4-bg.jpg"
             alt="Chef Anand Kumar Latest Work Showcase"
             fill
-            priority
-            quality={98}
+            loading="lazy"
             unoptimized
             sizes="(max-width: 1280px) 100vw, 1260px"
             className="object-cover"
@@ -112,8 +111,7 @@ export default function PlateShowcase() {
                     src={slide.plateImage}
                     alt={slide.title}
                     fill
-                    priority
-                    quality={98}
+                    loading="lazy"
                     unoptimized
                     sizes="(max-width: 1280px) 52vw, 660px"
                     className="object-contain"
