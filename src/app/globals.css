@@ -3,6 +3,8 @@
 @tailwind utilities;
 
 :root {
+  --font-cormorant: "Cormorant Garamond", Georgia, serif;
+  --font-manrope: "Manrope", system-ui, -apple-system, sans-serif;
   --color-obsidian: #10100F;
   --color-ivory: #F6F1E8;
   --color-gold: #C8A76B;

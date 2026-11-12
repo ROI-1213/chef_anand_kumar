@@ -10,7 +10,6 @@ import SectionReveal from "../motion/SectionReveal";
 interface ChefSlide {
   id: string;
   baseSrc: string;
-  fgSrc: string;
   alt: string;
 }
 
@@ -18,19 +17,16 @@ const CHEF_SLIDES: ChefSlide[] = [
   {
     id: "chef-slide-1",
     baseSrc: "/images/about-chef-hd-1.png",
-    fgSrc: "/images/about-chef-fg-1.png",
     alt: "Executive Chef Anand Kumar — Culinary Mastery",
   },
   {
     id: "chef-slide-2",
     baseSrc: "/images/about-chef-hd-2.png",
-    fgSrc: "/images/about-chef-fg-2.png",
     alt: "Executive Chef Anand Kumar — Hospitality Leadership",
   },
   {
     id: "chef-slide-3",
     baseSrc: "/images/about-chef-hd-3.png",
-    fgSrc: "/images/about-chef-fg-3.png",
     alt: "Executive Chef Anand Kumar — Global Gastronomy",
   },
 ];
@@ -139,7 +135,7 @@ export default function Intro() {
                     transition={{ duration: 0.55, ease: [0.16, 1, 0.3, 1] }}
                     className="absolute inset-0"
                   >
-                    {/* Layer 1 (Base): HD Chef Portrait + Brushed Gold Back Circle */}
+                    {/* HD Chef Portrait + Golden Back Circle */}
                     <Image
                       src={currentSlide.baseSrc}
                       alt={currentSlide.alt}
@@ -148,93 +144,6 @@ export default function Intro() {
                       unoptimized
                       sizes="(max-width: 1024px) 85vw, 420px"
                       className="object-contain object-bottom z-10"
-                    />
-
-                    {/* Layer 2 (Middle - Behind Chef, Over the Ring): Animated Spinning Golden Circle & Comet Arcs */}
-                    <div
-                      style={{
-                        left: "50%",
-                        top: "47.6%",
-                        width: "78%",
-                        height: "65.5%",
-                        transform: "translate(-50%, -50%)",
-                      }}
-                      className="absolute z-20 pointer-events-none flex items-center justify-center"
-                    >
-                      {/* Pulsing Golden Halo Glow */}
-                      <motion.div
-                        animate={{
-                          scale: [0.98, 1.04, 0.98],
-                          opacity: [0.35, 0.75, 0.35],
-                        }}
-                        transition={{ duration: 3.5, repeat: Infinity, ease: "easeInOut" }}
-                        className="absolute inset-0 rounded-full border-2 border-[#DCA54C]/55 shadow-[0_0_35px_rgba(220,165,76,0.55),inset_0_0_25px_rgba(220,165,76,0.35)]"
-                      />
-
-                      {/* Clockwise Spinning Brushed-Gold Comet Ring */}
-                      <motion.svg
-                        animate={{ rotate: 360 }}
-                        transition={{ duration: 9, repeat: Infinity, ease: "linear" }}
-                        viewBox="0 0 200 200"
-                        className="w-full h-full overflow-visible"
-                      >
-                        <defs>
-                          <linearGradient id="goldSweep1" x1="0%" y1="0%" x2="100%" y2="100%">
-                            <stop offset="0%" stopColor="#FFF3D1" stopOpacity="1" />
-                            <stop offset="45%" stopColor="#DCA54C" stopOpacity="0.85" />
-                            <stop offset="100%" stopColor="#DCA54C" stopOpacity="0" />
-                          </linearGradient>
-                        </defs>
-                        <circle
-                          cx="100"
-                          cy="100"
-                          r="98"
-                          fill="none"
-                          stroke="url(#goldSweep1)"
-                          strokeWidth="3.2"
-                          strokeDasharray="190 420"
-                          strokeLinecap="round"
-                        />
-                        <circle
-                          cx="100"
-                          cy="2"
-                          r="3.5"
-                          fill="#FFF7E0"
-                          className="drop-shadow-[0_0_8px_#DCA54C]"
-                        />
-                      </motion.svg>
-
-                      {/* Counter-Clockwise Inner Fine Golden Ring */}
-                      <motion.svg
-                        animate={{ rotate: -360 }}
-                        transition={{ duration: 14, repeat: Infinity, ease: "linear" }}
-                        viewBox="0 0 200 200"
-                        className="absolute inset-[3%] w-[94%] h-[94%] overflow-visible"
-                      >
-                        <circle
-                          cx="100"
-                          cy="100"
-                          r="96"
-                          fill="none"
-                          stroke="#FFE09E"
-                          strokeWidth="1.4"
-                          strokeDasharray="110 200"
-                          strokeOpacity="0.75"
-                          strokeLinecap="round"
-                        />
-                      </motion.svg>
-                    </div>
-
-                    {/* Layer 3 (Top Foreground Mask — 100% Pixel-Identical to Layer 1): Chef Anand overlapping IN FRONT of the Animated Circle */}
-                    <Image
-                      src={currentSlide.fgSrc}
-                      alt=""
-                      aria-hidden="true"
-                      fill
-                      priority
-                      unoptimized
-                      sizes="(max-width: 1024px) 85vw, 420px"
-                      className="object-contain object-bottom z-30 pointer-events-none"
                     />
                   </motion.div>
                 </AnimatePresence>
